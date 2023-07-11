@@ -8,7 +8,7 @@ Linguagens formais possuem regras sintáticas e semânticas para descrever o fun
 
 Ao trabalhar com linguagens de programação você deve compreender quais instruções e qual a lógica para interpretação da máquina. Como são utilizadas para passar instruções que devem ser executadas por máquinas, não consideram contextos ou abstrações, são meros executores. Quem as escreve deve prezar pela objetividade e pelo princípio de funcionamento dos computadores: a eletrônica. Esta trabalha com informações elétricas que são mapeadas para bits (0's e 1's) e operam suas respectivas operações lógicas.
 
- Veja a anedota a seguir e tente imaginar o motivo pelo qual o marido trouxe seis litros de leite.
+Veja a anedota a seguir e tente imaginar o motivo pelo qual o marido trouxe seis litros de leite.
 
 > A esposa do programador disse:
 >
@@ -318,9 +318,9 @@ Machine learning can be the first step for someone interested in artificial inte
 - Poetry Poetry is a tool for creating, building, installing, and packaging Python projects. It also allows you to publish your projects to PyPI. It tracks and resolves your project’s dependencies. It uses your current virtual environments or creates new ones to isolate your packages from your system-wide Python installation.
 - PyInstaller PyInstaller is a tool that freezes Python applications into stand-alone executables that work under Windows, GNU/Linux, macOS, and others.
 
-# Empresas que utilizam
+# Exercício
 
-# Vagas de emprego
+Faça uma pesquisa sobre as empresas que utilizam Python e as vagas de emprego existentes. Pesquisa os requisitos e faixa salarial.
 
 # Referências
 
