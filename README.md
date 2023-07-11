@@ -2,12 +2,17 @@
 
 ## Módulo 1.1 - Introdução à Linguagem Python
 
-- Introdução e Histórico
-- Características (Zen, PEP8)
+- Linguagens de Programação
+- Característicass da Linguagem Python
+- Alto Níve x Baixo Nível
+- Interpretada
+- Tipagem dinâmica
+- Fortemente tipada
+- Duck Typing
+- PEP 20 - Modo de Programar Python
 - Versões da linguagem
-- Utilização em Projetos
-- Empresas que utilizam
-- Vagas de emprego
+- Utilização e Ferramentas
+- Exercício: Empresas que utilizam e vagas de emprego
 
 ## Módulo 1.2 - Ambiente de desenvolvimento e Execução de Programas
 
