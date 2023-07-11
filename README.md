@@ -9,7 +9,7 @@
 - Tipagem dinâmica
 - Fortemente tipada
 - Duck Typing
-- PEP 20 - Modo de Programar Python
+- Modo de Programar Python (PEP20)
 - Versões da linguagem
 - Utilização e Ferramentas
 - [Exercício: Empresas que utilizam e vagas de emprego](https://github.com/romulomenezesjr/tsi-prog1/issues/1)
