@@ -6,13 +6,9 @@
 
 Linguagens formais possuem regras sintáticas e semânticas para descrever o funcionamento e estrutura sem duplo sentido.Também são mais concisas e literais do que a linguagem normal, por isso constuma-se levar um tempo para se acostumar ao seu uso, principalmente se a diferença para a linguagem normal for muito grande.
 
+Ao trabalhar com linguagens de programação você deve compreender quais instruções e qual a lógica para interpretação da máquina. Como são utilizadas para passar instruções que devem ser executadas por máquinas, não consideram contextos ou abstrações, são meros executores. Quem as escreve deve prezar pela objetividade e pelo princípio de funcionamento dos computadores: a eletrônica. Esta trabalha com informações elétricas que são mapeadas para bits (0's e 1's) e operam suas respectivas operações lógicas.
 
-
-
-
-As linguagens de programação são linguagens formais. Elas são utilizadas para passar instruções que devem ser executadas por máquinas. Como estas não consideram contextos ou abstrações, são meros executores, deve-se prezar pela objetividade. Além disso, devem levar em consideração o princípio de funcionamento dos computadores: a eletrônica. Esta trabalha com informações elétricas que são mapeadas para bits (0's e 1's) e operam suas respectivas operações binárias.
-
-Ao trabalhar com linguagens de programação você deve compreender quais instruções e qual a lógica para interpretação da máquina. Veja a anedota a seguir e tente imaginar o motivo pelo qual o marido trouxe seis litros de leite.
+ Veja a anedota a seguir e tente imaginar o motivo pelo qual o marido trouxe seis litros de leite.
 
 > A esposa do programador disse:
 >
