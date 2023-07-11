@@ -2,7 +2,7 @@
 
 ## Linguagens de Programação
 
-**Linguagens de programação são linguagens formais que foram projetadas para execução de instruções lógicas.** Linguagens formais são linguagens projetadas para servir à aplicações específicas. Por exemplo, a notação que os matemáticos usam é uma linguagem formal que é particularmente boa para denotar relações entre números e símbolos. Os químicos usam uma linguagem formal para representar a estrutura química das moléculas.
+**Linguagens de programação são linguagens formais que foram projetadas para execução de instruções lógicas.** Linguagens formais são linguagens diferentes da normal e são usadas para aplicações específicas. Por exemplo, a notação que os matemáticos usam é uma linguagem formal que é particularmente boa para denotar relações entre números e símbolos. Os químicos usam uma linguagem formal para representar a estrutura química das moléculas.
 
 Linguagens formais possuem regras sintáticas e semânticas para descrever o funcionamento e estrutura sem duplo sentido.Também são mais concisas e literais do que a linguagem normal, por isso constuma-se levar um tempo para se acostumar ao seu uso, principalmente se a diferença para a linguagem normal for muito grande.
 
