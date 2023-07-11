@@ -175,7 +175,7 @@ len(numeros)    # 3
 
 ## PEP 20 - Modo de Programar Python
 
-A linguagem Python é construída a partir de proposta para melhoramento do Python discutidas entre a comunidade de programadores. Estas propostas são chamadas de [PEP's (Python Enhancement Proposal)](https://peps.python.org/pep-0001/). Duas PEP's muito importantantes para compreender a estrutura da linguagem são a [PEP20](https://peps.python.org/pep-0020/) (funcionameto e semântica do código) e a [PEP8](https://peps.python.org/pep-0008/) (estilos para formatar o código). A PEP20 é chamada de modo Python de Programar e possui o seguinte conteúdo:
+A linguagem Python é construída a partir de proposta para melhoramento do Python discutidas entre a comunidade de programadores. Estas propostas são chamadas de [PEP's (Python Enhancement Proposal)](https://peps.python.org/pep-0001/). Duas PEP's muito importantantes para compreender a estrutura da linguagem são a [PEP20](https://peps.python.org/pep-0020/) (estilo) e a [PEP8](https://peps.python.org/pep-0008/) (formatação). A PEP20 é chamada de modo Python de Programar e possui o seguinte conteúdo:
 
 > Beautiful is better than ugly.\
 > Explicit is better than implicit.\
