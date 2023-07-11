@@ -24,7 +24,7 @@ Ao trabalhar com linguagens de programação você deve compreender quais instru
 
 É fácil compreender que o marido vai ter problemas pois tratou a esposa como máquina.
 
-## Linguagem Python
+## Característicass da Linguagem Python
 
 A linguagem Python tem por característica ser muito próxima à linguagem natural. É considerada como uma linguagem de altíssimo nível pois sua estrutura e instruções são de fácil entendimento, considerando o idioma inglês. Toda o conjunto de instruções, formas simplificadas do seu uso e legibilidade da linguagem a distinguem de outras linguagens de alto nível bastante populares como Java e Javascript.
 
