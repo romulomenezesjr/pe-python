@@ -1,6 +1,6 @@
-# - Introdução
+# Introdução
 
-## Módulo 1.1 - Introdução à Linguagem Python
+## Aula 1.1 - Introdução à Linguagem Python
 
 - Linguagens de Programação
 - Característicass da Linguagem Python
@@ -14,7 +14,7 @@
 - Utilização e Ferramentas
 - Exercício: Empresas que utilizam e vagas de emprego
 
-## Módulo 1.2 - Ambiente de desenvolvimento e Execução de Programas
+## Aula 1.2 - Ambiente de desenvolvimento e Execução de Programas
 
 - VS Code + Plugins
 - Instalação do Interpretador Python
@@ -23,7 +23,7 @@
 - Execução no VSCode
 - Execução github codespaces/apps
 
-## Módulo 1.3 - Linguagem Python
+## Aula 1.3 - Linguagem Python
 
 - Sintaxe e estilo
 - Variáveis, constante e escopos
@@ -33,12 +33,16 @@
 - Operadores (atribuição, relacionais, aritméticos e lógicos)
 - Manipulação e Formatação de Strings
 
-## Módulo 1.4 - Exercício sobre Introdução, Tipos, String, formatação e funções
+## Aula 1.4 - Estruturas de Seleção 
 
-## Módulo 1.5 - Estruturas de Seleção e Repetição
+- Seleção simples (if) e seleção dupla (if/else)
+- Seleção múltipla (if/else/elif) e operador ternário
 
-- Seleção (if, else, elif e operador ternário)
-- Repetição (for, while, continue, break, range, enumerate)
+## Aula 1.5 - Estruturas Repetição
+- Repetição com condicional (while)
+- Repetição com contador (for)
+- Funções auxiliares na repetição (range, enumerate)
+- Estruturas de controle na repetição (continue, break, yield)
 
 ## Módulo 1.6 - Exercício sobre Estruturas de Seleção e Repetição
 
