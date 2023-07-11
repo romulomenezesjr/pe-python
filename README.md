@@ -12,7 +12,7 @@
 - PEP 20 - Modo de Programar Python
 - Versões da linguagem
 - Utilização e Ferramentas
-- Exercício: Empresas que utilizam e vagas de emprego
+- [Exercício: Empresas que utilizam e vagas de emprego](https://github.com/romulomenezesjr/tsi-prog1/issues/1)
 
 ## Aula 1.2 - Ambiente de desenvolvimento e Execução de Programas
 
