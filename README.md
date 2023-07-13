@@ -1,29 +1,31 @@
-# Introdução
+# Parte 1 - Introdução à Linguagem Python
 
-## Aula 1.1 - Introdução à Linguagem Python
+## [Aula 1.1 - Conhecendo a Linguagem Python](./parte1/aula1.md)
 
+- Primeiro Programa
 - Linguagens de Programação
 - Característicass da Linguagem Python
-- Alto Níve x Baixo Nível
-- Interpretada
-- Tipagem dinâmica
-- Fortemente tipada
-- Duck Typing
-- Modo de Programar Python (PEP20)
+  - Alto Níve x Baixo Nível
+  - Interpretada
+  - Tipagem dinâmica
+  - Fortemente tipada
+  - Duck Typing
+  - Modo de Programar Python (PEP20)
 - Versões da linguagem
 - Utilização e Ferramentas
 - [Exercício: Empresas que utilizam e vagas de emprego](https://github.com/romulomenezesjr/tsi-prog1/issues/1)
 
-## Aula 1.2 - Ambiente de desenvolvimento e Execução de Programas
+## [Aula 1.2 - Ambiente de Desenvolvimento e Execução](./parte1/aula2.md)
 
-- VS Code + Plugins
+- VS Code
+- Extensões
 - Instalação do Interpretador Python
-- Arquivo .py e .ipynb
+- Arquivos .md, .py e .ipynb
 - Interpretador no SO
 - Execução no VSCode
 - Execução github codespaces/apps
 
-## Aula 1.3 - Linguagem Python
+## Aula 1.3 - Utilizando a Linguagem Python
 
 - Sintaxe e estilo
 - Variáveis, constante e escopos
@@ -33,12 +35,13 @@
 - Operadores (atribuição, relacionais, aritméticos e lógicos)
 - Manipulação e Formatação de Strings
 
-## Aula 1.4 - Estruturas de Seleção 
+## Aula 1.4 - Estruturas de Seleção
 
 - Seleção simples (if) e seleção dupla (if/else)
 - Seleção múltipla (if/else/elif) e operador ternário
 
 ## Aula 1.5 - Estruturas Repetição
+
 - Repetição com condicional (while)
 - Repetição com contador (for)
 - Funções auxiliares na repetição (range, enumerate)

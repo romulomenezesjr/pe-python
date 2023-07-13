@@ -1,4 +1,13 @@
-# Introdução à Linguagem Python
+# Introdução à Linguagem de Programação Python
+
+## Primeiro Programa
+
+É praticamente uma regra que qualquer curso introdutório de programação mostre o mesmo exemplo: Como mostrar os caracteres "Hello world!" na tela.
+
+```python
+print('Hello world!')
+
+```
 
 ## Linguagens de Programação
 
@@ -28,7 +37,7 @@ Veja a anedota a seguir e tente imaginar o motivo pelo qual o marido trouxe seis
 
 A linguagem Python tem por característica ser muito próxima à linguagem natural. É considerada como uma linguagem de altíssimo nível pois sua estrutura e instruções são de fácil entendimento, considerando o idioma inglês. Toda o conjunto de instruções, forma simplificada de uso e legibilidade a distinguem de outras linguagens de alto nível.
 
-## Alto Níve x Baixo Nível
+### Alto Níve x Baixo Nível
 
 Também existem as linguagens de baixo nível, às vezes chamadas de "linguagens de máquina" ou "linguagens assembly" (linguagens de montagem). Com muita simplificação podemos dizer que o computador só consegue executar programas escritos em linguagens de baixo nível.
 
@@ -41,7 +50,7 @@ Programas escritos em linguagens de alto nível precisam ser processados antes q
 
 Devido a essas vantagens, quase todos os programas são escritos em linguagens de alto nível. As de baixo nível são utilizadas somente para umas poucas aplicações especializadas.
 
-## Interpretada
+### Interpretada
 
 Para executar um programa escrito na linguagem Python é necessário ter um programa, também chamado python. Ele é um **interpretador**. Irá verificar e executar cada instrução escrita no seu programa.
 
@@ -91,7 +100,7 @@ A linguagem Python internamente utiliza os processos, mas devido a forma com que
   <img src="../img/python-compile-interpreted.png" />
 </p>
 
-## Tipagem dinâmica
+### Tipagem dinâmica
 
 O Python usa tipagem dinâmica, o que significa que você pode atribuir e reatribuir uma variável àa diferentes tipos de dados. Isso torna o Python muito flexível na atribuição de tipos de dados; ela difere de outras linguagens que são tipadas estaticamente.
 
@@ -118,7 +127,7 @@ fruta = 1 // Exception
 
 A tipagem dinâmica é mais fácil de trabalhar e possibilita que o tempo de desenvolvimento para pequenos programas seja mais rápido. Porém, pode resultar em bugs inesperados e em alguns momentos você precisa usar a função type().
 
-## Fortemente tipada
+### Fortemente tipada
 
 Python é uma linguagem fortemente tipada, o que significa que o interpretador não faz conversões automáticas ou coersões. O programa feito em Python necessita de um tipo exato para realizar as operações. O interpretador faz uma verificação no conteúdo das variáveis no momento da execução de uma instrução. Esta verificação é consequência da tipagem dinâmica, pois nenhuma verificação foi feita anteriormente e nenhuma conversão é automática. Isso afeta o desempenho da execução em aplicações de _extremo_ processamento.
 
@@ -156,7 +165,7 @@ Adicinar anotações de tipo não é uma obrigação na linguagem Python, mas po
 
 ![Plano Carteziano.](../img/tipagem.jpg)
 
-## Duck Typing
+### Duck Typing
 
 Outro termo usado para descrever a tipagem em Python é o _Duck Typing_. Pelo conceito: "Se algo parece com um pato, faz barulho de pato ou anda como um pato, então deve ser um pato".
 
@@ -173,7 +182,7 @@ len(nome)       # 5
 len(numeros)    # 3
 ```
 
-## PEP 20 - Modo de Programar Python
+### PEP 20 - Modo de Programar Python
 
 A linguagem Python é construída a partir de proposta para melhoramento do Python discutidas entre a comunidade de programadores. Estas propostas são chamadas de [PEP's (Python Enhancement Proposal)](https://peps.python.org/pep-0001/). Duas PEP's muito importantantes para compreender a estrutura da linguagem são a [PEP20](https://peps.python.org/pep-0020/) (estilo) e a [PEP8](https://peps.python.org/pep-0008/) (formatação). A PEP20 é chamada de modo Python de Programar e possui o seguinte conteúdo:
 
