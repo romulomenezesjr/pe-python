@@ -2,12 +2,18 @@
 
 ## Primeiro Programa
 
-É praticamente uma regra que qualquer curso introdutório de programação mostre o mesmo exemplo: Como mostrar os caracteres "Hello world!" na tela.
+É praticamente uma regra que qualquer curso introdutório de programação mostre o mesmo exemplo: Como mostrar os caracteres "Hello world!" na tela. 
 
 ```python
 print('Hello world!')
 
 ```
+Para gerar este primeiro programa em Python basta criar um arquivo de texto no Windows, salvar o arquivo com o nome helloworld.py e executar o comando 
+```sh
+python helloworld.py
+```
+
+
 
 ## Linguagens de Programação
 
