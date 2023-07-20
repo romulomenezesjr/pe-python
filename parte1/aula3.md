@@ -293,6 +293,47 @@ Strings são conjuntos imutáveis (não se preocupe com o termo agora) de caract
 
    ```
 
+## Operador de Associação e Identidade
+
+1. Identidade
+   Este operador é utilizado para comparar objetos, verificando se os objetos testados referenciam o mesmo objeto
+
+   ```python
+   lista = [1, 2, 3]
+   outra_lista = [1, 2, 3]
+   recebe_lista = lista
+
+   # Recebe True, pois são o mesmo objeto
+
+   print(f"São o mesmo objeto? {lista is recebe_lista}")
+
+   # Retorna False, pois são objetos diferentes
+
+   print(f"São o mesmo objeto? {lista is outra_lista}")
+   ```
+
+   Exemplo do operador **is not**
+
+   ```python
+   lista = [1, 2, 3]
+   outra_lista = [1, 2, 3]
+   print(lista is not outra_lista) # Retorna True pois são objetos diferentes.
+   ```
+
+2. Associação
+   Eles servem para verificar se determinado objeto está associado ou pertence a determinada estrutura de dados.
+
+   **in** Retorna True caso o valor seja encontrado na sequência
+   **not in** Retorna True caso o valor não seja encontrado na sequência
+
+   ```python
+   lista = ["Python", "Operadores"]
+   # Verifica se existe a string dentro da lista
+   print('Python' in lista) # Saída: True
+   # Verifica se não existe a string dentro da lista
+   print('Javascript' not in lista) # Saída: True
+   ```
+
 ### PEMDAS
 
 O PEMDAS é um acrônimo que representa a ordem de precedência dos operadores matemáticos. Ele é usado para determinar a sequência correta de avaliação de expressões matemáticas complexas.

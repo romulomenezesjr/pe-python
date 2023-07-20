@@ -25,7 +25,7 @@
 - Execução no VSCode
 - Execução github codespaces/apps
 
-## Aula 1.3 - Utilizando a Linguagem Python
+## [Aula 1.3 - Utilizando a Linguagem Python](./parte1/aula3.md)
 
 - Sintaxe e estilo
 - Variáveis, constante e escopos
@@ -45,7 +45,7 @@
   - Output
   - Funções
 
-## Aula 1.4 - Strings
+## [Aula 1.4 - Strings](./parte1/aula4.md)
 
 - Criação
 - Acesso à posições
@@ -58,25 +58,24 @@
   - f-string
 - Métodos
 
-## Aula 1.5 - Estruturas de Seleção
+## [Aula 1.5 - Estruturas de Seleção](./parte1/aula5.md)
 
-- Seleção simples (if) e seleção dupla (if/else)
-- Seleção múltipla (if/else/elif) e operador ternário
+- Seleção simples (if)
+- Seleção dupla (if/else)
+- Seleção dupla aninhada
+- Seleção múltipla (if/else/elif)
+- Operador ternário
 
-## Aula 1.5 - Estruturas Repetição
+## Aula 1.6 - Estruturas Repetição
 
 - Repetição com condicional (while)
 - Repetição com contador (for)
 - Funções auxiliares na repetição (range, enumerate)
 - Estruturas de controle na repetição (continue, break, yield)
 
-## Módulo 1.6 - Exercício sobre Estruturas de Seleção e Repetição
+# Parte 2
 
-## Módulo 1.7 - Avaliação 1
-
-# Módulo 2 - Funções, Coleções e Módulos
-
-## Módulo 2.1 - Funções
+## Aula 2.1 - Funções
 
 - Definição
 - Funções embutidas
@@ -88,7 +87,7 @@
 - HOF e First class functions
 - lambdas
 
-## Módulo 2.2 - Coleção de dados: Lista, Tuplas, Dicionários, Set
+## Aula 2.2 - Coleção de dados: Lista, Tuplas, Dicionários, Set
 
 - Coleções: Listas, Tuplas, Dicionários e Conjuntos
   -- Definição e Características
@@ -96,27 +95,25 @@
   -- Alterar e manipular elementos (append, del, pop)
   -- Funções: Classificação, Copiar, Juntar, Map, Max, Min, Len
 
-## Módulo 2.3 - Persistencia de Dados
+## Aula 2.3 - Persistencia de Dados
 
 - Arquivos: Leitura e escrita
 - Navegação e manipulação do sistema de arquivos
 - Pickle/Mashal vs JSON
 - sqlite3
 
-## Módulo 2.4 - Interface Gráfica
+## Aula 2.4 - Módulos
 
-- TKinter (https://docs.python.org/pt-br/3/library/tk.html)
-
-## Módulo 2.5 - Outros Módulos
-
+- Interface Gráfica TKinter (https://docs.python.org/pt-br/3/library/tk.html)
 - Datas
 - Matemática (https://docs.python.org/pt-br/3/library/numeric.html)
 
-## Módulo 2.6 - API
+## Aula 2.5 - Criando API
 
+- Ambientes Virtuais
 - API: fastapi
 
-# Módulo 3 - Recursos da linguagem
+# Aula 2.6 - Recursos da linguagem
 
 - Decorators
 - Generators
