@@ -29,13 +29,36 @@
 
 - Sintaxe e estilo
 - Variáveis, constante e escopos
-- Input/Output
-- Atribuição e atribuição múltipla
-- Tipos de dados (int, float, complex, boolean, string)
-- Operadores (atribuição, relacionais, aritméticos e lógicos)
-- Manipulação e Formatação de Strings
+- Tipos de dados
+  - boolean
+  - int
+  - float
+  - complex
+  - string
+- Operadores
+  - Atribuição
+  - Aritméticos
+  - Relacionais
+  - Lógicos
+- Funções de Input/Output
+  - Input
+  - Output
+  - Funções
 
-## Aula 1.4 - Estruturas de Seleção
+## Aula 1.4 - Strings
+
+- Criação
+- Acesso à posições
+- Formatação
+  - Concatenação
+  - Caracteres de Escape
+  - Raw Strings
+  - Operador de formatação
+  - Método str.format()
+  - f-string
+- Métodos
+
+## Aula 1.5 - Estruturas de Seleção
 
 - Seleção simples (if) e seleção dupla (if/else)
 - Seleção múltipla (if/else/elif) e operador ternário

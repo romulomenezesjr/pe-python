@@ -128,87 +128,6 @@ Em Python, strings são demarcadas por aspas, tanto simples (') quanto duplas ("
 
 Strings são conjuntos imutáveis (não se preocupe com o termo agora) de caracteres. Python 3 utiliza, por padrão, o conjunto de caracteres Unicode, ou UTF-8. Isso significa que falantes de línguas como Português, que possuem diacríticos (á, à, ã, ç), podem facilmente utilizar strings com os caracteres nativos. Como já escrito, strings são sempre envolvidas por aspas simples ou duplas.
 
-Um escape sequence é um conjunto de caracteres, geralmente precedidos por uma barra para a esquerda (\) que possuem um significado especial. É bastante útil que você se familiarize com esses caracteres, pois eles podem ajudá-lo muito na hora de consertar arquivos de texto.
-
-- \n: Cria uma nova linha
-- \t: Cria um tab
-- \r: Retorna ao início da linha
-- \\: Escreve a barra para a esquerda em si.
-
-#### Raw Strings
-
-Suponha que você deseja imprimir justamente a string 'Hello\nworld!', sem separação de texto. Isso pode ser feito utilizando uma raw string, que é criada simplesmente colocando um r antes das aspas.
-
-```python
-print(r'Hello\nworld!')
-print(r'\abc')
-```
-
-#### Strings Formatadas
-
-A formatação de strings é uma técnica muito útil no Python para criar strings dinâmicas combinando texto estático com valores de variáveis.
-
-Também chamadas de f-strings pois são strings com a letra f no início e chaves {} para realizar a interpolação de expressões.
-
-```python
-nome = "Alice"
-idade = 25
-altura = 1.65
-
-mensagem = f"Olá, meu nome é {nome} e eu tenho {idade} anos. Minha altura é {altura} metros."
-print(mensagem)
-```
-
-Também é possível realizar formatação mais avançada dentro das chaves das f-strings. Aqui estão alguns exemplos
-
-```python
-numero = 42
-pi = 3.14159
-
-print(f"O número é {numero:03d}")  # Resultado: O número é 042
-print(f"O valor de pi é {pi:.2f}")  # Resultado: O valor de pi é 3.14
-```
-
-Com f-strings, você pode alinhar strings para formatar sua saída de maneira mais organizada. É possível especificar o alinhamento à esquerda, à direita ou centralizado dentro de um campo de largura fixa. Isso é feito adicionando um sinal de dois-pontos após a expressão dentro das chaves e, em seguida, especificando o tipo de alinhamento e a largura desejada.
-
-Aqui está um exemplo de como alinhar strings com f-strings:
-
-```python
-valor = 42.123456789
-
-print(f"Valor: {valor:<10.2f}")  # Alinhado à esquerda com 2 casas decimais
-print(f"Valor: {valor:>10.2f}")  # Alinhado à direita com 2 casas decimais
-print(f"Valor: {valor:^10.2f}")  # Centralizado com 2 casas decimais
-
-```
-
-Ainda é possível formatar datas, portentagens, notações numérica e alinhar texto.
-
-#### Operador de formatação %
-
-Neste exemplo, %s é usado como marcador de posição para uma string, e %d é usado como marcador de posição para um número inteiro.Esta forma é baseada na formatação da linguagem C.
-
-```python
-nome = "Alice"
-idade = 25
-
-mensagem = "Olá, meu nome é %s e eu tenho %d anos." % (nome, idade)
-print(mensagem)
-```
-
-#### Método str.format()
-
-O método .format() permite inserir valores em uma string usando marcadores de posição. Foi introduzido no Python 2.6. Aqui está um exemplo básico:
-
-```python
-nome = "Alice"
-idade = 25
-altura = 1.65
-
-mensagem = "Olá, meu nome é {} e eu tenho {} anos. Minha altura é {} metros.".format(nome, idade, altura)
-print(mensagem)
-```
-
 # Operadores (atribuição, aritméticos, relacionais e lógicos)
 
 ## Atribuição
@@ -342,7 +261,7 @@ print(mensagem)
    print(resto)  # Saída: 1
    ```
 
-7. Atribuição e Operadores Matemáticos
+7. Operadores Compostos: Atribuição Operação Aritmética
 
    O operador de atribuição (=) é usado para atribuir um valor a uma variável. Você pode combinar o operador de atribuição com os operadores matemáticos para realizar operações e atribuir o resultado a uma variável. Exemplo:
 
@@ -482,7 +401,46 @@ Os operadores relacionais, também conhecidos como operadores de comparação, e
     print(a <= b) # Saída: False
     ```
 
-# Input/Output
+## Operadores Lógicos
+
+Os operadores lógicos são utilizados para realizar operações lógicas em expressões condicionais e avaliar a verdade ou falsidade de condições. Os operadores lógicos padrão no Python são and, or e not. Eles permitem combinar ou inverter condições para tomar decisões em seu código
+
+1. Operador and (E lógico):
+
+   Retorna True se todas as expressões forem verdadeiras. Caso contrário, retorna False.
+
+   ```python
+   a = 10
+   b = 5
+   c = 7
+
+   if a > b and a > c:
+   print("a é o maior número.")
+
+   ```
+
+2. Operador or (OU lógico):
+
+   Retorna True se pelo menos uma das expressões for verdadeira. Retorna False apenas se todas as expressões forem falsas.
+
+   ```python
+   resposta ="s"
+
+   if resposta == "s" or resposta == "sim":
+      print("Você será incluído na lista de e-mails.")
+   ```
+
+3. Operador not (negação lógico):
+
+   O operador not é usado para inverter o valor de uma expressão lógica. Se a expressão for True, o operador not retorna False, e se a expressão for False, o operador not retorna True. Aqui está um exemplo:
+
+   ```python
+   logado = False
+   if not logado:
+   print("Faça login para acessar a página.")
+   ```
+
+# Funções de Input/Output
 
 No Python, as funções de input e output são usadas para interagir com o usuário e com o ambiente externo. Elas permitem que você receba dados de entrada (input) e exiba informações de saída (output).
 
@@ -532,11 +490,11 @@ print("O nome é", nome, "e a idade é", idade)
 
 ```
 
-# Funções
+## Conhecendo mais funções
 
 Uma função é basicamente uma caixa preta de código, que recebeu um nome específico. De forma geral, são passados dados (parâmetros) para os argumentos de uma função que executa algumas instruções e então retorna algum valor.
 
-## Argumentos e Retorno
+### Argumentos e Retorno
 
 No exemplo a seguir utilizamos a função print passando um argumento à ela, uma string 'Hello world!'. Ao longo de seu funcionamento a função imprime na tela o que foi fornecido a ela. Esta função não possui nenhum retorno (na verdade retorna um tipo None)
 
@@ -558,7 +516,7 @@ type(print)
 
 Caso a função não tenha argumentos, não haverá nada dentro dos parênteses. Algumas funções aceitam mais de um argumento, e esses devem ser separados por vírgulas.
 
-## Conhecendo a função melhor
+### Conhecendo a função melhor
 
 Podemos conhecer o funcionamento de funções a partir da documentação. Desta forma conhecemos o que ela faz, os argumentos e retorno.
 
