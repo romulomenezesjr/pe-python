@@ -99,7 +99,7 @@
 
 - Arquivos: Leitura e escrita
 - Navegação e manipulação do sistema de arquivos
-- Pickle/Mashal vs JSON
+- CSV, JSON e Pickle/Mashal
 - sqlite3
 
 ## Aula 2.4 - Módulos
