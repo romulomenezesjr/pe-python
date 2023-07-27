@@ -1,3 +1,7 @@
+Descreva o processo de criação de um ambiente virtual em Python e por que isso pode ser útil em projetos com diferentes dependências.
+
+Discuta a importância das anotações de tipo (type hints) na linguagem Python e explique como elas podem ajudar no desenvolvimento de código.
+
 Escreva um programa que solicite ao usuário o seu nome e a sua idade, armazenando esses valores em variáveis. Em seguida, imprima uma mensagem formatada mostrando o nome e a idade do usuário.
 
 Escreva um programa que solicite ao usuário dois números inteiros e armazene-os em variáveis. Em seguida, calcule e imprima a soma, subtração, multiplicação e divisão desses números.

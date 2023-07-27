@@ -1,4 +1,4 @@
-Escreva um programa em Python que imprima a frase "Hello world!" na tela.
+Escreva um programa em Python que imprima o seu nome "João ..." na tela.
 
 Explique a diferença entre linguagens formais e linguagens naturais, fornecendo exemplos de cada uma.
 

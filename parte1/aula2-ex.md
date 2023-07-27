@@ -8,10 +8,6 @@ Explique por que a linguagem Python é considerada fortemente tipada e discuta a
 
 Cite três frameworks populares para desenvolvimento web em Python e explique brevemente o que cada um deles oferece.
 
-Descreva o processo de criação de um ambiente virtual em Python e por que isso pode ser útil em projetos com diferentes dependências.
-
-Discuta a importância das anotações de tipo (type hints) na linguagem Python e explique como elas podem ajudar no desenvolvimento de código.
-
 Mencione duas bibliotecas populares para visualização de dados em Python e explique brevemente suas principais características.
 
 Explique o que é webscraping e cite duas bibliotecas Python comumente usadas para realizar essa tarefa.
