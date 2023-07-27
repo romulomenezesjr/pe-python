@@ -2,28 +2,34 @@
 
 ## [Aula 1.1 - Conhecendo a Linguagem Python](./parte1/aula1.md)
 
-- Primeiro Programa
-- Linguagens de Programação
-- Característicass da Linguagem Python
-  - Alto Níve x Baixo Nível
-  - Interpretada
-  - Tipagem dinâmica
-  - Fortemente tipada
-  - Duck Typing
-  - Modo de Programar Python (PEP20)
-- Versões da linguagem
-- Utilização e Ferramentas
-- [Exercício: Empresas que utilizam e vagas de emprego](https://github.com/romulomenezesjr/tsi-prog1/issues/1)
+- 🎉 [Primeiro Programa](./parte1/aula1.md#primeiro-programa)
+- 📓 [Vscode e Extensões](./parte1/aula1.md#vscode--extensões)
+- 💻 [Linguagens de Programação](./parte1/aula1.md#linguagens-de-programação)
+- 🐍 [Linguagem Python](./parte1/aula1.md#linguagem-python)
 
 ## [Aula 1.2 - Ambiente de Desenvolvimento e Execução](./parte1/aula2.md)
 
-- VS Code
-- Extensões
-- Instalação do Interpretador Python
-- Arquivos .md, .py e .ipynb
-- Interpretador no SO
-- Execução no VSCode
-- Execução github codespaces/apps
+- 🐍 [Características da Linguagem Python](./parte1/aula2.md#característicass-da-linguagem-python)
+  - 🔝 [Alto Nível x Baixo Nível](./parte1/aula2.md#alto-níve-x-baixo-nível)
+  - 🎭 [Interpretada](./parte1/aula2.md#interpretada)
+  - [Tipagem dinâmica](./parte1/aula2.md#tipagem-dinâmica)
+  - 💪 [Fortemente tipada](./parte1/aula2.md#fortemente-tipada)
+  - 🦆 [Duck Typing](./parte1/aula2.md#duck-typing)
+  - 🐍 [PEP20](./parte1/aula2.md#pep-20---modo-de-programar-python)
+- 🔢 [Versões da Linguagem](./parte1/aula2.md#versões-da-linguagem)
+- 🛠 [Utilização e Ferramentas](./parte1/aula2.md#utilização-e-ferramentas)
+  - 🕸 [Web](./parte1/aula2.md#web-development)
+  - 🖥 [CLI](./parte1/aula2.md#cli-development)
+  - 💻 [GUI](./parte1/aula2.md#gui-development)
+  - 🎮 [Games](./parte1/aula2.md#game-development)
+  - 🤖 [Machine Learning](./parte1/aula2.md#machine-learning)
+  - 📊 [Ciência de Dados](./parte1/aula2.md#data-analysis-and-visualization)
+  - 🕷 [Web Scraping](./parte1/aula2.md#webscrapping)
+  - 🙏 [DevOps](./parte1/aula2.md#devops)
+  - ✅ [Testes](./parte1/aula2.md#software-testing)
+  - 🎲 [Banco de Dados](./parte1/aula2.md#banco-de-dados)
+  - 🔨 [Construção e Entrega](./parte1/aula2.md#software-packaging-and-deployment)
+- [Exercício: Empresas que utilizam e vagas de emprego](https://github.com/romulomenezesjr/tsi-prog1/issues/1)
 
 ## [Aula 1.3 - Utilizando a Linguagem Python](./parte1/aula3.md)
 
