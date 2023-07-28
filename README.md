@@ -1,13 +1,13 @@
 # Parte 1 - Introdução à Linguagem Python
 
-## [Aula 1.1 - Conhecendo a Linguagem Python](./parte1/aula1.md)
+## [Aula 1.1 - Conhecendo a Linguagem Python e Ambiente de Desenvolvimento](./parte1/aula1.md)
 
 - 🎉 [Primeiro Programa](./parte1/aula1.md#primeiro-programa)
 - 📓 [Vscode e Extensões](./parte1/aula1.md#vscode--extensões)
 - 💻 [Linguagens de Programação](./parte1/aula1.md#linguagens-de-programação)
 - 🐍 [Linguagem Python](./parte1/aula1.md#linguagem-python)
 
-## [Aula 1.2 - Ambiente de Desenvolvimento e Execução](./parte1/aula2.md)
+## [Aula 1.2 - Características e Versões da Linguagem](./parte1/aula2.md)
 
 - 🐍 [Características da Linguagem Python](./parte1/aula2.md#característicass-da-linguagem-python)
   - 🔝 [Alto Nível x Baixo Nível](./parte1/aula2.md#alto-níve-x-baixo-nível)
