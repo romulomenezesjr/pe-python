@@ -38,3 +38,16 @@ Valores antes da troca: numero1 = 10, numero2 = 5
 Valores depois da troca: numero1 = 5, numero2 = 10
 
 ```
+
+Um foguete atinge uma velocidade constante de 1500 m/s. Se ele leva 40 segundos para atingir essa velocidade, qual é a altitude máxima que o foguete alcançará?
+
+
+Um sistema de foguete opera em Celsius, mas você precisa fornecer a temperatura em Fahrenheit. Dada a fórmula de conversão: Fahrenheit = (Celsius * 9/5) + 32, converta uma temperatura de 25°C para Fahrenheit.
+
+
+Escreva um programa que dado um dia, mes e ano calcule o valor em termos de UNIX Epoch﻿ Time (o número de milessegundos desde 00:00 de 01 de Janeiro de 1970).
+
+a) Considere que todos os anos possuem 365 dias
+b) Considere os anos bissextos
+
+
