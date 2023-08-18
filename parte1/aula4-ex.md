@@ -1,10 +1,17 @@
+# Criação, Acesso e Fatiamento
+
+1. Crie uma string com seu nome completo e imprima somente o primeiro nome.
+2. Dada a string "Python é uma linguagem de programação", imprima somente a palavra "linguagem".
+3. Escreva um código que inverta uma string. Por exemplo, se a entrada for "python", a saída deve ser "nohtyp".
+4. Dada a string "abcdefg", use o operador de fatiamento para imprimir "cde".
+5. Escreva um programa que verifique se uma palavra é um palíndromo (lê-se igual de trás para frente). Exemplo: "radar".
+6. Escreva um programa que remova todos os espaços em branco de uma string.
+
 # Formatação
 
-Escreva um programa que solicite ao usuário seu nome e idade e imprima uma mensagem formatada no seguinte formato: "Olá, {nome}! Você tem {idade} anos."
+1. Escreva um programa que solicite ao usuário seu nome e idade e imprima uma mensagem formatada no seguinte formato: "Olá, {nome}! Você tem {idade} anos."
 
-Escreva um programa que solicite ao usuário dois números e imprima uma mensagem formatada mostrando a soma, subtração, multiplicação e divisão dos números. Por exemplo: "A soma de {num1} e {num2} é {soma}."
-
-Escreva um programa que solicite ao usuário uma temperatura em Celsius e imprima uma mensagem formatada mostrando a temperatura em Fahrenheit. Utilize a fórmula de conversão: Fahrenheit = (Celsius \* 9/5) + 32.
+2. Escreva um programa que solicite ao usuário dois números e imprima uma mensagem formatada mostrando a soma, subtração, multiplicação e divisão dos números. Por exemplo: "A soma de {num1} e {num2} é {soma}."
 
 Escreva um programa que solicite ao usuário uma frase e substitua todas as vogais por asteriscos (\*). Em seguida, imprima a frase formatada.
 
@@ -57,6 +64,12 @@ Escreva um programa que substitua todas as ocorrências de uma determinada palav
 Escreva um programa que peça ao usuário para digitar seu nome completo e, em seguida, imprima apenas o sobrenome.
 
 Escreva um programa que solicite ao usuário para digitar uma palavra e, em seguida, verifique se a palavra é um palíndromo (ou seja, se pode ser lida da mesma forma da esquerda para a direita e vice-versa).
+
+Crie uma função que receba uma frase e retorne a mesma frase com todas as vogais substituídas por asteriscos (*).
+
+Escreva um código que capitalize a primeira letra de cada palavra em uma frase. Exemplo: "python é incrível" deve se tornar "Python É Incrível".
+
+Dada uma lista de strings, ordene-a em ordem crescente de comprimento das strings.
 
 Escreva um programa que solicite ao usuário para digitar uma frase e, em seguida, conte quantas vezes uma determinada letra aparece na frase.
 
