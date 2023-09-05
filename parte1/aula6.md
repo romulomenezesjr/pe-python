@@ -108,7 +108,7 @@ while not acertou:
  
 ## FOR
 
-O loop "for" é usado para iterar sobre uma sequência de elementos, como listas, strings, dicionários, etc. Ele percorre cada elemento da sequência e executa o bloco de código associado para cada elemento. A sintaxe básica do loop "for" é a seguinte:
+O loop for em Python é comumente usado quando você sabe antecipadamente quantas vezes deseja executar um bloco de código. O loop for é frequentemente usado com um contador para iterar através de sequências, como listas, tuplas, strings e até mesmo intervalos numéricos.
 
 ```python
 for elemento in sequencia:
@@ -116,6 +116,7 @@ for elemento in sequencia:
 
 ```
 
+    
 Onde:
 
 "elemento" é a variável que recebe cada valor da sequência em cada iteração.
@@ -131,19 +132,58 @@ for fruta in frutas:
 
 ```
 
-O loop "for" é frequentemente utilizado em conjunto com as funções range() e enumerate() em Python para facilitar a iteração sobre sequências e obter índices durante o processo.
+Nesta sequencia existem 3 posições, a variável criada dentro do for 'frutas' irá receber dentro do loop cada valor. Da seguinte forma:
+- Na iteração 1: fruta = 'maçã'
+- Na iteração 2: fruta = 'banana'
+- Na iteração 3: fruta = 'laranja'
 
-## Função range():
+Exemplo do for com Strings:
+```python
+palavra = "Python"
 
-A função range() é usada para gerar uma sequência de números em um intervalo especificado. Ela pode ser usada de várias maneiras, mas a forma mais comum é com apenas um argumento, que representa o valor final da sequência (o valor inicial é assumido como 0). A sintaxe básica da função range() é a seguinte:
+for letra in palavra:
+    print(letra)
+```
+Nesta string existem 6 valores, a variável criada dentro do for 'letra' irá receber dentro do loop cada letra da string. Da seguinte forma:
+- Na iteração 1: letra = 'P'
+- Na iteração 2: letra = 'y'
+- Na iteração 3: letra = 't'
+- Na iteração 3: letra = 'h'
+- Na iteração 3: letra = 'o'
+- Na iteração 3: letra = 'n'
+
+
+É muito comum realizarmos a repetição com uma sequência numérica, com um início, intervalo e fim. Veja o exemplo do contador de 10 à 0.
+
 
 ```python
-range(início, fim, passo)
+numeros = (10,9,8,7,6,5,4,3,2,1,0)
+
+for numero in numeros:
+    print(numero)
+print('fim')
+
+```
+
+Veja que neste exemplo a variável 'numero' assume cada um dos valores da sequência 'numeros' a cada iteração.  Por fim, após o bloco do for está a instrução 'print('fim')'. O que aconteceria se a instrução 'print('fim')' estiver dentro do bloco do 'for'?
+
+
+
+### Funções com o for
+
+O loop "for" é frequentemente utilizado em conjunto com as funções range() em Python para facilitar a iteração sobre sequências.
+
+### Função range():
+
+A função range() é usada para gerar uma sequência de números em um intervalo especificado. Ela pode ser usada de várias maneiras, mas a forma mais comum é com apenas um argumento, que representa o valor final da sequência (o valor inicial é assumido como 0 e o valor do incremento é assumido como 1). A sintaxe básica da função range() é a seguinte:
+
+```python
+range(início=0, passo=1, fim)
 
 ```
 
 início: Valor inicial da sequência (opcional, o padrão é 0).
-fim: Valor final da sequência (não inclusivo, ou seja, a sequência vai até fim - 1).
+fim: Valor final da sequência (não inclusivo, ou seja, a sequência vai até fim ).
 passo: Intervalo entre os valores da sequência (opcional, o padrão é 1).
 
 Exemplo:
@@ -164,7 +204,19 @@ for i in range(len(frutas)):
 
 ```
 
-## Função enumerate():
+Pode parecer mais trabalho fazer desta forma quando poderiamos utilizar o for diretamente. Mas ao acessar os elementos pelo índice podemos alterar a lista. Veja o exemplo a seguir: 
+
+Exemplo: Data uma lista com os valores [1,2,3,4,5], altere esta lista para que cada um dos seus elementos seja duplicado.
+
+```python
+numeros  =  [1,2,3,4,5]
+
+for i in range(len(numeros)):
+    numeros[i] = numeros[i] * 2
+print(numeros)
+```
+
+### Função enumerate():
 
 A função enumerate() é usada para obter tanto o índice quanto o valor de cada elemento em uma sequência. Ela retorna uma tupla contendo o índice e o valor do elemento em cada iteração. A sintaxe básica da função enumerate() é a seguinte:
 
@@ -183,9 +235,16 @@ for indice, fruta in enumerate(frutas):
 
 ```
 
-Podemos utilizar os índices gerados pelo enumerate() para acessar os elementos em outras partes do código durante o loop, caso seja necessário.
+Veja o exemplo do uso do enumerate no exemplo que duplica os valores da lista:
 
-## Outras funções
+```python
+numeros  =  [1,2,3,4,5]
+
+for i,e in enumerate(numeros):
+    numeros[i] = numeros[i] * 2
+print(numeros)
+```
+
 
 ### zip()
 
@@ -249,3 +308,7 @@ for numero in sorted(numeros):
 
 Essas são apenas algumas das funções que podem ser usadas em conjunto com o loop "for" em Python. A linguagem oferece muitas outras funções e bibliotecas que podem tornar o trabalho com loops mais eficiente e conveniente, dependendo da tarefa que você está tentando realizar. Fique à vontade para explorar a documentação oficial do Python e outras fontes para conhecer mais sobre as opções disponíveis
 
+
+### FOR x WHILE
+
+É comum se questionar sobre qual das duas estruturas de repetição é mais adequada: while ou for. Costumamos dizer que depende da situação. Em geral, quando a quantidade de iterações é indeterminada, a estrutura while é uma boa alternativa. Por outro lado, quando o número de iterações é definido, a estrutura for é bastante adequada
