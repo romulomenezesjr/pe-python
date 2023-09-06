@@ -50,13 +50,14 @@ Imagine que você está em uma fila no supermercado. Enquanto houver pessoas na 
 
 
 ```python
-contagem_regressiva = 10
+from time import sleep
 
-while contagem_regressiva > 0:
-    print(f"Contagem regressiva: {contagem_regressiva}")
-    contagem_regressiva -= 1
-
-print("Foguete lançado!")
+fila = 10
+while fila > 0:
+  print(f'Continua esperando... [posição: {fila}]')
+  sleep(2)
+  fila -= 1
+print('Sua vez chegou! Atendido!')
 ```
 
 #### Exemplo 2 - Contagem Regressiva de um Foguete:
