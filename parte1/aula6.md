@@ -41,7 +41,7 @@ while contador <= 5:
     contador -= 1 # Esta instrução não fará com que a condição do while seja atendida. Loop infinito.
 
 ```
-O interpretador python detecta quando o código possui tal instrução e encerra o programa para que o sistema operacional que o estiver executando não trave.
+O interpretador python não detecta quando o código possui tal instrução. Quando ocorre recursão infinita ele ainda consegue encerrar o programa para que o sistema operacional que o estiver executando não trave.
 
 ### Exemplos do uso do while
 
