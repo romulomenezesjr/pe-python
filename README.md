@@ -33,50 +33,57 @@
 
 ## [Aula 1.3 - Utilizando a Linguagem Python](./parte1/aula3.md)
 
-- Sintaxe e estilo
-- Variáveis, constante e escopos
-- Tipos de dados
-  - boolean
-  - int
-  - float
-  - complex
-  - string
-- Operadores
-  - Atribuição
-  - Aritméticos
-  - Relacionais
-  - Lógicos
-- Funções de Input/Output
-  - Input
-  - Output
-  - Funções
+- [Sintaxe e estilo](./parte1/aula3.md#sintaxe-e-estilo)
+- [Variáveis, constante e escopos](./parte1/aula3.md#variáveis-constante-e-escopos)
+- [Tipos de dados (int, float, complex, boolean, string)](./parte1/aula3.md#tipos-de-dados-int-float-complex-boolean-string)
+  - [boolean](./parte1/aula3.md#booleano-bool)
+  - [int](./parte1/aula3.md#inteiro-int)
+  - [float](./parte1/aula3.md#ponto-flutuante-float)
+  - [complex](./parte1/aula3.md#complexo-complex)
+  - [string](./parte1/aula3.md#strings-str)
+- [Operadores](./parte1/aula3.md#operadores-atribuição-aritméticos-relacionais-e-lógicos)
+  - [Atribuição](./parte1/aula3.md#atribuição)
+  - [Aritméticos](./parte1/aula3.md#aritméticos)
+  - [Relacionais](./parte1/aula3.md#operadores-relacionais)
+  - [Lógicos](./parte1/aula3.md#operadores-lógicos)
+- [Funções de Input/Output](./parte1/aula3.md#funções-de-inputoutput)
+  - [Input](./parte1/aula3.md#input)
+  - [Output](./parte1/aula3.md#output)
+  - [Conhecendo mais funções](./parte1/aula3.md#conhecendo-mais-funções)
 
 ## [Aula 1.4 - Strings](./parte1/aula4.md)
 
-- Criação
-- Acesso à posições
-- Formatação
-  - Concatenação
-  - Caracteres de Escape
-  - Raw Strings
-  - Operador de formatação
-  - Método str.format()
-  - f-string
-- Métodos
+- [Criação](./parte1/aula4.md#criação)
+- [Acesso à posições](./parte1/aula4.md#acesso-à-posições)
+- [Formatação](./parte1/aula4.md#formatando-strings)
+  - [Concatenação](./parte1/aula4.md#concatenar)
+  - [Caracteres de Escape](./parte1/aula4.md#caracteres-de-escape)
+  - [Raw Strings](./parte1/aula4.md#raw-strings)
+  - [f-String](./parte1/aula4.md#f-strings)
+  - [Operador de formatação](./parte1/aula4.md#operador-de-formatação)
+  - [Método str.format()](./parte1/aula4.md#método-strformat)
+  - [Métodos](./parte1/aula4.md#métodos)
 
 ## [Aula 1.5 - Estruturas de Seleção](./parte1/aula5.md)
 
-- Seleção simples (if)
-- Seleção dupla (if/else)
-- Seleção dupla aninhada
-- Seleção múltipla (if/else/elif)
-- Operador ternário
+- [Seleção simples (if)](./parte1/aula5.md#instrução-de-seleção-simples-if)
+- [Seleção dupla (if/else)](./parte1/aula5.md#instrução-de-seleção-dupla-ifelse)
+- [Seleção dupla aninhada](./parte1/aula5.md#instruções-ifelse-aninhadas)
+- [Seleção múltipla (if/else/elif)](./parte1/aula5.md#instrução-de-seleção-múltipla-ifelseelif)
+- [Operador ternário](./parte1/aula5.md#operador-ternário)
+- [Match Case](./parte1/aula5.md#match-case)
 
-## Aula 1.6 - Estruturas Repetição
-
-- Repetição com condicional (while)
-- Repetição com contador (for)
-- Funções auxiliares na repetição (range, enumerate)
+## [Aula 1.6 - Estruturas Repetição](./parte1/aula6.md)
+- [Estruturas de Repetição](./parte1/aula6.md#repetição)
+- [Repetição com condicional (while)](./parte1/aula6.md#while)
+- [Repetição com contador (for)](./parte1/aula6.md#for)
+- [Funções auxiliares na repetição (range, enumerate)](./parte1/aula6.md#funções-com-o-for)
+  - [Range](./parte1/aula6.md#função-range)
+  - [Enumerate](./parte1/aula6.md#função-enumerate)
+  - [Zip](./parte1/aula6.md#zip)
+  - [Reversed](./parte1/aula6.md#reversed)
+  - [Sorted](./parte1/aula6.md#sorted)
+- [For x While](./parte1/aula6.md#for-x-while)
 - Estruturas de controle na repetição (continue, break, yield)
 
 # Parte 2
