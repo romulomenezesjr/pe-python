@@ -2,7 +2,7 @@
 
 ## Definição
 
-Em Python, uma função é um bloco de código nomeado que pode ser chamado/executado várias vezes para realizar uma tarefa específica. As funções são uma parte fundamental da programação, pois nos permitem reutilizar código e modularizar nossa lógica.
+Em Python, uma função é um bloco de código nomeado que pode ser chamado/executado várias vezes para realizar uma tarefa específica. As funções são uma parte fundamental da programação, pois nos permitem reutilizar código e modularizar nossa lógica. Esta é uma das principais vantagens ao criar funções, pois assim poderemos reutilizar o mesmo algoritmo/funcionalidade em outros momentos.
 
 A definição de uma função segue a seguinte sintaxe:
 
@@ -12,6 +12,8 @@ def nome_da_funcao(parametros):
     # Pode conter várias instruções
     return valor_de_retorno
 ```
+
+Você pode utilizar esta função definida por você da mesma forma que utiliza as funções embutidas no python, como print, len ou input. Vamos rever algumas características das funções embutidas para conhecer as diferentes formas de criar funções. 
 
 ## Funções Embutidas em Python
 
@@ -87,7 +89,7 @@ numeros_ordenados = sorted(numeros)
 print(numeros_ordenados)  # Saída: [1, 1, 2, 3, 3, 4, 5, 5, 6, 9]
 ```
 
-Essas são apenas algumas das muitas funções embutidas disponíveis em Python. Conhecê-las e utilizá-las apropriadamente pode facilitar muito o desenvolvimento de programas Python eficientes e funcionais. Você pode consultar a documentação oficial do Python para obter informações mais detalhadas sobre todas as funções embutidas disponíveis.
+Essas são apenas algumas das muitas funções embutidas disponíveis em Python. Conhecê-las e utilizá-las apropriadamente pode facilitar muito o desenvolvimento de programas Python eficientes e funcionais. Além de conhecer as funções embutidas você deve construir suas próprias funções que possuam comportamento útil para utilizar nos programas. Programar é basicamente criar e utilizar funções que possam ser utilizadas ao longo da execução de acordo com o algoritmo pré-estabelecido. 
 
 ## Parâmetros, parâmetros nomeados, retornos
 
@@ -105,6 +107,24 @@ def saudacao(nome):
 ```
 
 Neste exemplo, a função `saudacao` recebe um parâmetro chamado `nome`, que é utilizado para exibir uma mensagem personalizada na saudação.
+
+Uma função pode ser criada com mais de um parâmetro para permitir que diversos dados sejam  manipulados.  Podemos definir uma função saudacao recebendo nome e sexo para que a função imprima o pronome de tratamento correto.
+
+
+```python
+def saudacao(nome, sexo):
+    if sexo == 'f':
+        print(f"Olá, senhora {nome}!")
+    elif sexo == 'm':
+        print(f"Olá, senhor {nome}!")        
+    else:
+        print(f"Olá, {nome}!")
+
+saudacao('José', 'm')
+```
+
+Observe que a ordem de passagem dos parâmetros deve ser seguida para que as variáveis da função sejam manipuladas na ordem correta. Tente executar a função saudação invertendo os parâmetros.
+
 
 ### Parâmetros Nomeados
 
