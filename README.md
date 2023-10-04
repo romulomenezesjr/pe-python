@@ -88,17 +88,17 @@
 
 # Parte 2
 
-## Aula 2.1 - Funções
+## [Aula 2.1 - Funções](./parte2/aula7.md)
 
-- Definição
-- Funções embutidas
-- Parâmetros, parâmetros nomeados, retornos
-- Tipagem opcional
-- Escopo local e global
-- Argumentos \*args e \*\*kwargs
-- Documentação
-- HOF e First class functions
-- lambdas
+- [Definição](./parte2/aula7.md#definição)
+- [Funções embutidas](./parte2/aula7.md#funções-embutidas-em-python)
+- [Parâmetros, parâmetros nomeados, retornos](./parte2/aula7.md#parâmetros-parâmetros-nomeados-retornos)
+- [Tipagem opcional](./parte2/aula7.md#tipagem-opcional)
+- [Escopo local e global](./parte2/aula7.md#escopo-local-e-escopo-global-em-python)
+- [Argumentos \*args e \*\*kwargs](./parte2/aula7.md#argumentos-args-e-kwargs)
+- [Documentação](./parte2/aula7.md#documentação-de-código-e-documentação-de-funções-em-python)
+- [HOF e First class functions](./parte2/aula7.md#high-order-functions-hof)
+- [lambdas](./parte2/aula7.md#funções-lambda-em-python)
 
 ## Aula 2.2 - Coleção de dados: Lista, Tuplas, Dicionários, Set
 
