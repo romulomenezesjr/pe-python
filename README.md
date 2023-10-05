@@ -1,13 +1,13 @@
 # Parte 1 - Introdução à Linguagem Python
 
-## [Aula 1.1 - Conhecendo a Linguagem Python e Ambiente de Desenvolvimento](./parte1/aula1.md)
+## [Aula 1 - Conhecendo a Linguagem Python e Ambiente de Desenvolvimento](./parte1/aula1.md)
 
 - 🎉 [Primeiro Programa](./parte1/aula1.md#primeiro-programa)
 - 📓 [Vscode e Extensões](./parte1/aula1.md#vscode--extensões)
 - 💻 [Linguagens de Programação](./parte1/aula1.md#linguagens-de-programação)
 - 🐍 [Linguagem Python](./parte1/aula1.md#linguagem-python)
 
-## [Aula 1.2 - Características e Versões da Linguagem](./parte1/aula2.md)
+## [Aula 2 - Características e Versões da Linguagem](./parte1/aula2.md)
 
 - 🐍 [Características da Linguagem Python](./parte1/aula2.md#característicass-da-linguagem-python)
   - 🔝 [Alto Nível x Baixo Nível](./parte1/aula2.md#alto-níve-x-baixo-nível)
@@ -31,7 +31,7 @@
   - 🔨 [Construção e Entrega](./parte1/aula2.md#software-packaging-and-deployment)
 - [Exercício: Empresas que utilizam e vagas de emprego](https://github.com/romulomenezesjr/tsi-prog1/issues/1)
 
-## [Aula 1.3 - Utilizando a Linguagem Python](./parte1/aula3.md)
+## [Aula 3 - Utilizando a Linguagem Python](./parte1/aula3.md)
 
 - [Sintaxe e estilo](./parte1/aula3.md#sintaxe-e-estilo)
 - [Variáveis, constante e escopos](./parte1/aula3.md#variáveis-constante-e-escopos)
@@ -51,7 +51,7 @@
   - [Output](./parte1/aula3.md#output)
   - [Conhecendo mais funções](./parte1/aula3.md#conhecendo-mais-funções)
 
-## [Aula 1.4 - Strings](./parte1/aula4.md)
+## [Aula 4 - Strings](./parte1/aula4.md)
 
 - [Criação](./parte1/aula4.md#criação)
 - [Acesso à posições](./parte1/aula4.md#acesso-à-posições)
@@ -64,7 +64,7 @@
   - [Método str.format()](./parte1/aula4.md#método-strformat)
   - [Métodos](./parte1/aula4.md#métodos)
 
-## [Aula 1.5 - Estruturas de Seleção](./parte1/aula5.md)
+## [Aula 5 - Estruturas de Seleção](./parte1/aula5.md)
 
 - [Seleção simples (if)](./parte1/aula5.md#instrução-de-seleção-simples-if)
 - [Seleção dupla (if/else)](./parte1/aula5.md#instrução-de-seleção-dupla-ifelse)
@@ -73,7 +73,7 @@
 - [Operador ternário](./parte1/aula5.md#operador-ternário)
 - [Match Case](./parte1/aula5.md#match-case)
 
-## [Aula 1.6 - Estruturas Repetição](./parte1/aula6.md)
+## [Aula 6 - Estruturas Repetição](./parte1/aula6.md)
 - [Estruturas de Repetição](./parte1/aula6.md#repetição)
 - [Repetição com condicional (while)](./parte1/aula6.md#while)
 - [Repetição com contador (for)](./parte1/aula6.md#for)
@@ -88,7 +88,7 @@
 
 # Parte 2
 
-## [Aula 2.1 - Funções](./parte2/aula7.md)
+## [Aula 7 - Funções](./parte2/aula7.md)
 
 - [Definição](./parte2/aula7.md#definição)
 - [Funções embutidas](./parte2/aula7.md#funções-embutidas-em-python)
@@ -100,7 +100,7 @@
 - [HOF e First class functions](./parte2/aula7.md#high-order-functions-hof)
 - [lambdas](./parte2/aula7.md#funções-lambda-em-python)
 
-## Aula 2.2 - Coleção de dados: Lista, Tuplas, Dicionários, Set
+## Aula 8 - Coleção de dados: Lista, Tuplas, Dicionários, Set
 
 - Coleções: Listas, Tuplas, Dicionários e Conjuntos
   -- Definição e Características
@@ -108,25 +108,25 @@
   -- Alterar e manipular elementos (append, del, pop)
   -- Funções: Classificação, Copiar, Juntar, Map, Max, Min, Len
 
-## Aula 2.3 - Persistencia de Dados
+## Aula 9 - Persistencia de Dados
 
 - Arquivos: Leitura e escrita
 - Navegação e manipulação do sistema de arquivos
 - CSV, JSON e Pickle/Mashal
 - sqlite3
 
-## Aula 2.4 - Módulos
+## Aula 10 - Módulos
 
 - Interface Gráfica TKinter (https://docs.python.org/pt-br/3/library/tk.html)
 - Datas
 - Matemática (https://docs.python.org/pt-br/3/library/numeric.html)
 
-## Aula 2.5 - Criando API
+## Aula 11 - Criando API
 
 - Ambientes Virtuais
 - API: fastapi
 
-# Aula 2.6 - Recursos da linguagem
+# Aula 12 - Recursos da linguagem
 
 - Decorators
 - Generators
