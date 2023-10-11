@@ -64,7 +64,7 @@ def test_maior_numero(a, b, c, resultado_esperado):
     assert maior_numero(a, b, c) == resultado_esperado
 
 # Teste para a função que retorna a quantidade de letras maiúsculas e minúsculas
-@pytest.mark.parametrize("entrada, resultado_esperado", [("Hello World", (2, 8)), ("AbCDeF", (3, 3)), ("12345", (0, 0))])
+@pytest.mark.parametrize("entrada, resultado_esperado", [("Hello World", (2, 8)), ("AbcDeF", (3, 3)), ("12345", (0, 0))])
 def test_contagem_letras(entrada, resultado_esperado):
     assert contagem_letras(entrada) == resultado_esperado
 
