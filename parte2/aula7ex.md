@@ -31,10 +31,11 @@ def ligar_ar():
 ligar_ar()
 print(temperatura)
 ```
-Utilize os casos de teste a seguir para validar seu código:
 
 25. A função filter é uma função que aceita uma outra função como argumento e um iterável (*args). Ela filtra todos os valores que são False a partir da primeira função passada, retornando uma lista de valores que retornaram True. Crie um filtro que recebe uma lista de números e retorna os pares.
 26. A função map é uma função que aceita uma outra função como argumento e um iterável (*args). Ela retorna uma lista de valores que passaram pela primeira função passada como argumento. Crie uma lista que formata todos os nomes passados para um valor em maiúsculo.
+
+Utilize os casos de teste a seguir para validar seu código para as questões 01 à 20:
 
 # Teste para a função saudacao
 @pytest.mark.parametrize("nome, saudacao_esperada", [("Alice", "Olá, Alice!"), ("Bob", "Olá, Bob!")])
