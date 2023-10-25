@@ -19,9 +19,23 @@
 19. Crie uma função chamada strip_custom que aceita uma string e caracteres de remoção como argumentos e retorna uma nova string com os caracteres de remoção removidos dos extremos da string. Ela deve ter o mesmo comportamento que o método str.strip().
 20. Crie uma função chamada replace_custom que aceita uma string, uma substring antiga e uma substring nova como argumentos e retorna uma nova string com todas as ocorrências da substring antiga substituídas pela substring nova. Ela deve ter o mesmo comportamento que o método str.replace().
 
+21. Crie uma função que aceita *args e retorna a soma de todos os números passados como argumentos.
+22. Escreva uma função que recebe *args e retorna o número de argumentos passados.
+23. Considerando a PEP 257 que trata da convensão de docstrings em python, selecione as 3 primeiras funções desta lista e crie a documentação.
+24. Considere a função a seguir e responda: Por que o valor da variável 'temperatura' não foi alterada? De que forma podemos alterar o código para que esta variável seja modificada?
+```py
+temperatura = 30
+def ligar_ar():
+    temperatura = 20
+
+ligar_ar()
+print(temperatura)
+```
 Utilize os casos de teste a seguir para validar seu código:
 
 ```
+25. A função filter é uma função que aceita uma outra função como argumento e um iterável (*args). Ela filtra todos os valores que são False a partir da primeira função passada, retornando uma lista de valores que retornaram True. Crie um filtro que recebe uma lista de números e retorna os pares.
+26. A função map é uma função que aceita uma outra função como argumento e um iterável (*args). Ela retorna uma lista de valores que passaram pela primeira função passada como argumento. Crie uma lista que formata todos os nomes passados para um valor em maiúsculo.
 
 # Teste para a função saudacao
 @pytest.mark.parametrize("nome, saudacao_esperada", [("Alice", "Olá, Alice!"), ("Bob", "Olá, Bob!")])
