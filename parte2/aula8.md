@@ -1,6 +1,6 @@
 # Coleções de Dados em Python
 
-Em Python, as coleções de dados são estruturas fundamentais que permitem armazenar, organizar e manipular grupos de elementos relacionados. Quatro tipos principais de coleções de dados são comuns em Python: Listas, Tuplas, Dicionários e Sets. Cada tipo tem características únicas e serve a propósitos específicos. Neste guia, abordaremos detalhadamente cada um deles, com exemplos para melhor compreensão.
+Em Python, as coleções de dados são estruturas fundamentais que permitem armazenar, organizar e manipular grupos de elementos relacionados. Quatro tipos principais de coleções de dados são comuns em Python: Listas, Tuplas, Dicionários e Sets. Cada tipo tem características únicas e serve a propósitos específicos. Abordaremos detalhadamente cada um deles, com exemplos para melhor compreensão.
 
 ## 1. Listas
 
