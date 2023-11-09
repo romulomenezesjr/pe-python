@@ -37,6 +37,7 @@ print(temperatura)
 
 Utilize os casos de teste a seguir para validar seu código para as questões 01 à 20:
 
+```py
 # Teste para a função saudacao
 @pytest.mark.parametrize("nome, saudacao_esperada", [("Alice", "Olá, Alice!"), ("Bob", "Olá, Bob!")])
 def test_saudacao(nome, saudacao_esperada):
@@ -126,6 +127,4 @@ def test_strip_custom(string, caracteres_remover, resultado_esperado):
 @pytest.mark.parametrize("string, substring_antiga, substring_nova, resultado_esperado", [("Python is fun", "fun", "awesome", "Python is awesome"), ("Hello, world!", "world", "universe", "Hello, universe!"), ("12345", "3", "7", "12745")])
 def test_replace_custom(string, substring_antiga, substring_nova, resultado_esperado):
     assert replace_custom(string, substring_antiga, substring_nova) == resultado_esperado
-
-
 ```
