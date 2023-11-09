@@ -13,3 +13,35 @@ lançamentos.
 cada célulaé a soma dela mesma e das células anteriores. Imprima o vetor antes e depois da manipulação. Exemplo:
 - Vetor original [2, 1, 20,5, 17,19,14,4, 18,2]
 - Vetor manipulado [2, 3, 25,35,82,166, 327, 644, 1302,2588]
+
+4 - Dada uma lista de números, utilize map() com uma função lambda para criar uma nova lista onde cada número é multiplicado por 2, mas apenas se for maior que 5
+
+5 - Crie uma lista de quadrados dos números de 1 a 10 usando list comprehension.
+- Crie uma lista de números de 1-10 utilizando range
+- Utilizando list comprehension gere os números quadrados a partir da primeira lista
+
+6 - Faça um programa que converta uma lista de temperaturas de Fahrenheit para Celsius, em seu programa o usuário deverá inserir uma sequência de valores que representam a temperatura em graus Fahrenheit, seu programa deve receber esses valores e armazenar em uma lista até que o valor inserido pelo usuário seja um valor em branco (uma string vazia). Converta todos os valores presentes na lista para graus Celsius usando a função map e imprima na tela em uma formatação amigável ao usuário.
+- Utilize o while e no bloco de repetição leia dados de temperatura do usuário
+- Acrescente os dados na lista
+- Crie uma função para converter temperatura Celcios para Farenheint
+- Use a função map com a função e a lista
+- Imprima todas os valores da nova lista
+
+7 - A partir do dicionário de nomes e idades de pessoas a seguir, faça um programa que imprima em ordem a partir dos nomes das pessoas, mostre a soma das idades, a média das idades e a pessoa mais velha. 
+```py
+people = {
+    "Rafael": 41,
+    "Anne": 28,
+    "Jen": 32,
+    "Satan": 2000000,
+    "Frank": 12,
+    "Sally": 19,
+    "Bob": 42,
+    "Sue": 21,
+    "Jill": 32,
+    "Jack": 32,
+}
+
+```
+
+
