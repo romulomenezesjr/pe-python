@@ -115,5 +115,6 @@ Output: [1,2]
 Exemplo:
 
 ![Imagem](https://assets.leetcode.com/uploads/2021/01/04/list2.jpg)
+
 Input: head = [1,1,2,3,3]
 Output: [1,2,3]
