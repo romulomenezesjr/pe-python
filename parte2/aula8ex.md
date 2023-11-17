@@ -102,4 +102,4 @@ Saída: [1,0]
 Explicação: O array representa o número 9. Incrementar um resulta em 9 + 1 = 10. Portanto, o resultado deve ser [1,0].
 
 10 - Dado o nó inicial de uma lista ligada ordenada, exclua todos os duplicados de forma que cada elemento apareça apenas uma vez. Retorne a lista ligada também ordenada.
-[Imagem](https://assets.leetcode.com/uploads/2021/01/04/list1.jpg)
+![Imagem](https://assets.leetcode.com/uploads/2021/01/04/list1.jpg)
