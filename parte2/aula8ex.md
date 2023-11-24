@@ -4,8 +4,7 @@ programa deve imprimir o valor -1
 - Leia um número do teclado
 - Compare se este número está na lista
 
-2 - Um dado é lançado 50 vezes, e o valor correspondente é armazenado em um vetor. Faça um programa que determine o percentual de ocorrências de face 6 do dado dentre esses 50
-lançamentos.
+2 - Um dado é lançado 50 vezes, e o valor correspondente é armazenado em um vetor. Faça um programa que determine o percentual de ocorrências de face 6 do dado dentre esses 50 lançamentos.
 - Crie uma lista com tamanho 50 e armazene nesta lista valores gerados aleatóriamente
 - Faça uma iteração na lista para verificar quantos destes números são iguais à 6
 
