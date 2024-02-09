@@ -196,7 +196,7 @@ A linguagem Python é construída a partir de proposta para melhoramento do Pyth
 
 # Versões da linguagem
 
-Com a evolução da linguagem são adicionadas novas funcionalidades, melhorias de desempenho e ferramentas para auxiliar no desenvolvimento. A seguir estão algumas versões e datas de lançamento. Veja o destaque para a documentação da versão 2.7, que foi muito utilizada e para a versão atual (3.11).
+Com a evolução da linguagem são adicionadas novas funcionalidades, melhorias de desempenho e ferramentas para auxiliar no desenvolvimento. A seguir estão algumas versões e datas de lançamento. Veja o destaque para a documentação da versão 2.7, que foi muito utilizada e para a versão atual (3.12).
 
 - Python 1.0 - Jan 1994
 - Python 2.0 - Out 2000.
