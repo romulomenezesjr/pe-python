@@ -24,24 +24,25 @@
 
 13. Escreva um programa em Python que solicite ao usuário dois números inteiros e troque os valores das variáveis. Em seguida, imprima os valores atualizados.
 
-  Instruções:
-
-  Solicite ao usuário o primeiro número inteiro e armazene-o em uma variável chamada numero1.
-  Solicite ao usuário o segundo número inteiro e armazene-o em uma variável chamada numero2.
-  Troque os valores das variáveis numero1 e numero2 utilizando atribuição múltipla.
-  Imprima os valores atualizados das variáveis utilizando a função print().
-
-  ```sh
-  Digite o primeiro número inteiro: 10
-  Digite o segundo número inteiro: 5
-  Valores antes da troca: numero1 = 10, numero2 = 5
-  Valores depois da troca: numero1 = 5, numero2 = 10
+    Instruções:
   
-  ```
+    Solicite ao usuário o primeiro número inteiro e armazene-o em uma variável chamada numero1.
+    Solicite ao usuário o segundo número inteiro e armazene-o em uma variável chamada numero2.
+    Troque os valores das variáveis numero1 e numero2 utilizando atribuição múltipla.
+    Imprima os valores atualizados das variáveis utilizando a função print().
+  
+    ```sh
+    Digite o primeiro número inteiro: 10
+    Digite o segundo número inteiro: 5
+    Valores antes da troca: numero1 = 10, numero2 = 5
+    Valores depois da troca: numero1 = 5, numero2 = 10
+    
+    ```
 
 14. Um foguete atinge uma velocidade constante de 1500 m/s. Se ele voar durante 40 segundos, qual é a altitude que o foguete alcançará?
 
 15. Escreva um programa que dado um dia, mes e ano calcule o valor em termos de UNIX Epoch﻿ Time (o número de milessegundos desde 00:00 de 01 de Janeiro de 1970).
 
   a) Considere que todos os anos possuem 365 dias
+  
   b) Considere os anos bissextos
