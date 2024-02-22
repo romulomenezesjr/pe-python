@@ -1,4 +1,4 @@
-# Stringss
+# Strings
 
 ## Criação
 
