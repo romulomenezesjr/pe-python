@@ -1,10 +1,15 @@
 # Criação, Acesso e Fatiamento
 
 1. Crie uma string com seu nome completo e imprima somente o primeiro nome.
+
 2. Dada a string "Python é uma linguagem de programação", imprima somente a palavra "linguagem".
+
 3. Escreva um código que inverta uma string. Por exemplo, se a entrada for "python", a saída deve ser "nohtyp".
+
 4. Dada a string "abcdefg", use o operador de fatiamento para imprimir "cde".
+
 5. Escreva um programa que verifique se uma palavra é um palíndromo (lê-se igual de trás para frente). Exemplo: "radar".
+
 6. Escreva um programa que remova todos os espaços em branco de uma string.
 
 # Formatação
