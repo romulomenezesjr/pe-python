@@ -25,7 +25,7 @@
 
 A linguagem Python tem por característica ser muito próxima à linguagem natural. É considerada como uma linguagem de altíssimo nível pois sua estrutura e instruções são de fácil entendimento, considerando o idioma inglês. Toda o conjunto de instruções, forma simplificada de uso e legibilidade a distinguem de outras linguagens de alto nível.
 
-### Alto Níve x Baixo Nível
+### Alto Nível x Baixo Nível
 
 Também existem as linguagens de baixo nível, às vezes chamadas de "linguagens de máquina" ou "linguagens assembly" (linguagens de montagem). Com muita simplificação podemos dizer que o computador só consegue executar programas escritos em linguagens de baixo nível.
 
