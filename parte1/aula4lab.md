@@ -74,7 +74,7 @@
 
 34. Escreva um código que capitalize a primeira letra de cada palavra em uma frase. Exemplo: "python é incrível" deve se tornar "Python É Incrível".
 
-35. Dada uma lista de strings, ordene-a em ordem crescente de comprimento das strings.
+35. Escreva um programa para ler uma frase, imprima esta frase com as palavras ordenadas em ordem crescente de comprimento das strings.
 
 36. Escreva um programa que solicite ao usuário para digitar uma frase e, em seguida, conte quantas vezes uma determinada letra aparece na frase.
 
