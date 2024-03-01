@@ -70,7 +70,5 @@
 
 33. Escreva um programa para ler uma frase, imprima esta frase com as palavras ordenadas em ordem crescente de comprimento das strings.
 
-34. Escreva um programa que solicite ao usuário para digitar uma frase e, em seguida, conte quantas vezes uma determinada letra aparece na frase.
-
-35. Escreva um programa que solicite ao usuário para digitar seu nome e, em seguida, imprima as iniciais do nome em letras maiúsculas.
+34. Escreva um programa que solicite ao usuário para digitar seu nome e, em seguida, imprima as iniciais do nome em letras maiúsculas.
 
