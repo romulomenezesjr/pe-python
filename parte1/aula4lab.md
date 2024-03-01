@@ -58,15 +58,13 @@
 
 27. Escreva um programa que solicite ao usuário para digitar seu nome em letras minúsculas e, em seguida, imprima o nome com a primeira letra em maiúscula.
 
-28. Escreva um programa que solicite ao usuário para digitar uma frase e, em seguida, imprima a frase em todas as letras maiúsculas e todas as letras minúsculas.
+28. Escreva um programa que solicite ao usuário para digitar uma frase e, em seguida, divida a frase em palavras individuais e as imprima em linhas separadas.
 
-29. Escreva um programa que solicite ao usuário para digitar uma frase e, em seguida, divida a frase em palavras individuais e as imprima em linhas separadas.
+29. Escreva um programa que substitua todas as ocorrências de uma determinada palavra em uma frase por outra palavra fornecida pelo usuário.
 
-30. Escreva um programa que substitua todas as ocorrências de uma determinada palavra em uma frase por outra palavra fornecida pelo usuário.
+30. Escreva um programa que peça ao usuário para digitar seu nome completo e, em seguida, imprima apenas o sobrenome.
 
-31. Escreva um programa que peça ao usuário para digitar seu nome completo e, em seguida, imprima apenas o sobrenome.
-
-32. Escreva um código que capitalize a primeira letra de cada palavra em uma frase. Exemplo: "python é incrível" deve se tornar "Python É Incrível".
+31. Escreva um código que capitalize a primeira letra de cada palavra em uma frase. Exemplo: "python é incrível" deve se tornar "Python É Incrível".
 
 33. Escreva um programa para ler uma frase, imprima esta frase com as palavras ordenadas em ordem crescente de comprimento das strings.
 
