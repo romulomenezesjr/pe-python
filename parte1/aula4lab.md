@@ -50,9 +50,7 @@
 
 23. Escreva um programa que solicite ao usuário para digitar uma frase e verifique se todas as palavras estão em letras maiúsculas.
 
-24. Escreva um programa que solicite ao usuário para digitar uma palavra e verifique se ela é um palíndromo.
-
-25. Escreva um programa que solicite ao usuário para digitar seu endereço de e-mail e extraia o nome de usuário (parte antes do "@") e o domínio (parte depois do "@").
+24. Escreva um programa que solicite ao usuário para digitar seu endereço de e-mail e extraia o nome de usuário (parte antes do "@") e o domínio (parte depois do "@").
 
 # Métodos
 
@@ -68,16 +66,11 @@
 
 31. Escreva um programa que peça ao usuário para digitar seu nome completo e, em seguida, imprima apenas o sobrenome.
 
-32. Escreva um programa que solicite ao usuário para digitar uma palavra e, em seguida, verifique se a palavra é um palíndromo (ou seja, se pode ser lida da mesma forma da esquerda para a direita e vice-versa).
+32. Escreva um código que capitalize a primeira letra de cada palavra em uma frase. Exemplo: "python é incrível" deve se tornar "Python É Incrível".
 
-33. Crie uma função que receba uma frase e retorne a mesma frase com todas as vogais substituídas por asteriscos (*).
+33. Escreva um programa para ler uma frase, imprima esta frase com as palavras ordenadas em ordem crescente de comprimento das strings.
 
-34. Escreva um código que capitalize a primeira letra de cada palavra em uma frase. Exemplo: "python é incrível" deve se tornar "Python É Incrível".
+34. Escreva um programa que solicite ao usuário para digitar uma frase e, em seguida, conte quantas vezes uma determinada letra aparece na frase.
 
-35. Escreva um programa para ler uma frase, imprima esta frase com as palavras ordenadas em ordem crescente de comprimento das strings.
+35. Escreva um programa que solicite ao usuário para digitar seu nome e, em seguida, imprima as iniciais do nome em letras maiúsculas.
 
-36. Escreva um programa que solicite ao usuário para digitar uma frase e, em seguida, conte quantas vezes uma determinada letra aparece na frase.
-
-37. Escreva um programa que solicite ao usuário para digitar seu nome e, em seguida, imprima as iniciais do nome em letras maiúsculas.
-
-38. Escreva um programa que solicite ao usuário para digitar uma frase e, em seguida, imprima a frase invertida.
