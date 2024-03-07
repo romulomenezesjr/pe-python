@@ -193,31 +193,7 @@ match valor:
         # Ação padrão (opcional) quando nenhum dos padrões anteriores corresponde
 
 ```
-
-Aqui estão alguns exemplos para ajudar a entender melhor:
-
-Exemplo 1 - Correspondência exata:
-
-```python
-def verificar_tipo(dado):
-    match dado:
-        case int:
-            print("É um número inteiro.")
-        case float:
-            print("É um número de ponto flutuante.")
-        case str:
-            print("É uma string.")
-        case _:
-            print("Tipo não reconhecido.")
-
-verificar_tipo(10)         # Saída: É um número inteiro.
-verificar_tipo(3.14)       # Saída: É um número de ponto flutuante.
-verificar_tipo("Python")   # Saída: É uma string.
-verificar_tipo(True)       # Saída: Tipo não reconhecido.
-
-```
-
-Exemplo 2 - Correspondência com condição:
+Exemplo 1 - Correspondência com condição:
 
 ```python
 def classificar_valor(valor):
@@ -228,13 +204,11 @@ def classificar_valor(valor):
             print("Valor igual a zero")
         case x if x > 0:
             print("Valor positivo")
-        case _:
-            print("Valor não reconhecido")
+        
 
 classificar_valor(-5)    # Saída: Valor negativo
 classificar_valor(0)     # Saída: Valor igual a zero
 classificar_valor(10)    # Saída: Valor positivo
-classificar_valor("abc") # Saída: Valor não reconhecido
 
 ```
 
