@@ -179,7 +179,7 @@ O loop "for" é frequentemente utilizado em conjunto com as funções range() em
 A função range() é usada para gerar uma sequência de números em um intervalo especificado. Ela pode ser usada de várias maneiras, mas a forma mais comum é com apenas um argumento, que representa o valor final da sequência (o valor inicial é assumido como 0 e o valor do incremento é assumido como 1). A sintaxe básica da função range() é a seguinte:
 
 ```python
-range(início=0, passo=1, fim)
+range(início=0, fim, passo=1)
 
 ```
 
