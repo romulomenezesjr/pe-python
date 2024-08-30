@@ -119,21 +119,22 @@ Dica: Utilize o módulo csv para ler e escrever de volta os dados atualizados no
     └── logs/
         └── app.log
 ```
-    O programa deve criar a estrutura completa de diretórios e arquivos, conforme mostrado acima.
-    Cada arquivo deve ser criado com um conteúdo inicial. Por exemplo:
-        clientes.txt deve conter o texto "Lista de Clientes".
-        produtos.txt deve conter o texto "Lista de Produtos".
-        principal.py deve conter um comentário explicando que é o arquivo principal do projeto.
-        utilidades.py deve conter um comentário explicando que é o arquivo de funções auxiliares.
-        app.log deve conter o texto "Arquivo de Log do Sistema".
+O programa deve criar a estrutura completa de diretórios e arquivos, conforme mostrado acima.
+Cada arquivo deve ser criado com um conteúdo inicial. Por exemplo:
+
+- clientes.txt deve conter o texto "Lista de Clientes".
+- produtos.txt deve conter o texto "Lista de Produtos".
+- principal.py deve conter um comentário explicando que é o arquivo principal do projeto.
+- utilidades.py deve conter um comentário explicando que é o arquivo de funções auxiliares.
+- app.log deve conter o texto "Arquivo de Log do Sistema".
 
 Requisitos:
 
-    Utilize as funções do módulo os para criar os diretórios e arquivos.
-    Certifique-se de que os diretórios e arquivos são criados apenas se ainda não existirem.
-    Utilize o contexto with para abrir e escrever nos arquivos.
+- Utilize as funções do módulo os para criar os diretórios e arquivos.
+- Certifique-se de que os diretórios e arquivos são criados apenas se ainda não existirem.
+- Utilize o contexto with para abrir e escrever nos arquivos.
 
 Dica:
 
-    Utilize os.makedirs() para criar diretórios recursivamente.
-    Utilize os.path.exists() para verificar se um arquivo ou diretório já existe antes de criá-lo.
+- Utilize os.makedirs() para criar diretórios recursivamente.
+- Utilize os.path.exists() para verificar se um arquivo ou diretório já existe antes de criá-lo.
