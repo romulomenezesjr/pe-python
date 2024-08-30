@@ -108,6 +108,7 @@ Dica: Utilize o módulo csv para ler e escrever de volta os dados atualizados no
 
 11. Implemente um programa em Python que crie a seguinte estrutura de diretórios e arquivos:
 
+```
     projeto/
     ├── dados/
     │   ├── clientes.txt
@@ -117,7 +118,7 @@ Dica: Utilize o módulo csv para ler e escrever de volta os dados atualizados no
     │   └── utilidades.py
     └── logs/
         └── app.log
-
+```
     O programa deve criar a estrutura completa de diretórios e arquivos, conforme mostrado acima.
     Cada arquivo deve ser criado com um conteúdo inicial. Por exemplo:
         clientes.txt deve conter o texto "Lista de Clientes".
