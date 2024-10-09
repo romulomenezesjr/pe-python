@@ -177,7 +177,48 @@ Strings são conjuntos imutáveis (não se preocupe com o termo agora) de caract
    print(w)  # Saída: 30
    print(resto)  # Saída: [40, 50, 60, 70]
    ```
+4. Expressão de Atribuição
 
+   É possível realizar a atribuição em uma instrução e retornar o valor atribuído imediatamente utilizando o operador de expressão de atribuição. Este operador também é chamado de Walrus. Veja o exemplo a seguir:
+   
+
+   ```python
+    >>> walrus = False
+    >>> walrus
+    False
+    
+    >>> (walrus := True)
+    True
+    >>> walrus
+    True
+   ```
+
+   Em um primeiro momento não aparenta ter diferença, mas observe que ao atribuir o valor é retornado imediatamente e o valor também foi atribuído à variável.
+   Ele pode ser utilizado em expressões aritméticas mais complexas e repetições. Veja os exemplos:
+
+   ```python
+   # Sem o walruns
+    ϕ1, λ1 = radians(59.9), radians(10.8)
+    ϕ2, λ2 = radians(49.3), radians(-123.1)
+
+    # Distance between Oslo and Vancouver
+    2 * rad * asin(
+     sqrt(
+         sin((ϕ2 - ϕ1) / 2) ** 2
+         + cos(ϕ1) * cos(ϕ2) * sin((λ2 - λ1) / 2) ** 2
+         )
+     )
+   ```
+
+     ```python
+   # Com o walruns
+    2 * rad * asin(
+     sqrt(
+         (ϕ_hav := sin((ϕ2 - ϕ1) / 2) ** 2)
+         + cos(ϕ1) * cos(ϕ2) * sin((λ2 - λ1) / 2) ** 2
+         )
+     )
+   ```
 ## Aritméticos
 
 1. Adição (+):
