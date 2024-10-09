@@ -197,27 +197,33 @@ Strings são conjuntos imutáveis (não se preocupe com o termo agora) de caract
    Ele pode ser utilizado em expressões aritméticas mais complexas e repetições. Veja os exemplos:
 
    ```python
-   # Sem o walruns
-    ϕ1, λ1 = radians(59.9), radians(10.8)
-    ϕ2, λ2 = radians(49.3), radians(-123.1)
+numbers = [2, 8, 0, 1, 1, 9, 7, 7]
 
-    # Distance between Oslo and Vancouver
-    2 * rad * asin(
-     sqrt(
-         sin((ϕ2 - ϕ1) / 2) ** 2
-         + cos(ϕ1) * cos(ϕ2) * sin((λ2 - λ1) / 2) ** 2
-         )
-     )
+num_length = len(numbers)
+num_sum = sum(numbers)
+
+description = {
+     "length": num_length,
+     "sum": num_sum,
+     "mean": num_sum / num_length,
+ }
+
+print(description)
+# {'length': 8, 'sum': 35, 'mean': 4.375}
    ```
 
      ```python
    # Com o walruns
-    2 * rad * asin(
-     sqrt(
-         (ϕ_hav := sin((ϕ2 - ϕ1) / 2) ** 2)
-         + cos(ϕ1) * cos(ϕ2) * sin((λ2 - λ1) / 2) ** 2
-         )
-     )
+numbers = [2, 8, 0, 1, 1, 9, 7, 7]
+
+description = {
+     "length": (num_length := len(numbers)),
+     "sum": (num_sum := sum(numbers)),
+     "mean": num_sum / num_length,
+ }
+
+print( description )
+# {'length': 8, 'sum': 35, 'mean': 4.375}
    ```
 ## Aritméticos
 
