@@ -197,33 +197,33 @@ Strings são conjuntos imutáveis (não se preocupe com o termo agora) de caract
    Ele pode ser utilizado em expressões aritméticas mais complexas e repetições. Veja os exemplos:
 
    ```python
-numbers = [2, 8, 0, 1, 1, 9, 7, 7]
-
-num_length = len(numbers)
-num_sum = sum(numbers)
-
-description = {
-     "length": num_length,
-     "sum": num_sum,
-     "mean": num_sum / num_length,
- }
-
-print(description)
-# {'length': 8, 'sum': 35, 'mean': 4.375}
+    numbers = [2, 8, 0, 1, 1, 9, 7, 7]
+    
+    num_length = len(numbers)
+    num_sum = sum(numbers)
+    
+    description = {
+         "length": num_length,
+         "sum": num_sum,
+         "mean": num_sum / num_length,
+     }
+    
+    print(description)
+    # {'length': 8, 'sum': 35, 'mean': 4.375}
    ```
 
      ```python
    # Com o walruns
-numbers = [2, 8, 0, 1, 1, 9, 7, 7]
-
-description = {
-     "length": (num_length := len(numbers)),
-     "sum": (num_sum := sum(numbers)),
-     "mean": num_sum / num_length,
- }
-
-print( description )
-# {'length': 8, 'sum': 35, 'mean': 4.375}
+    numbers = [2, 8, 0, 1, 1, 9, 7, 7]
+    
+    description = {
+         "length": (num_length := len(numbers)),
+         "sum": (num_sum := sum(numbers)),
+         "mean": num_sum / num_length,
+     }
+    
+    print( description )
+    # {'length': 8, 'sum': 35, 'mean': 4.375}
    ```
 ## Aritméticos
 
