@@ -204,6 +204,9 @@ def classificar_valor(valor):
             print("Valor igual a zero")
         case x if x > 0:
             print("Valor positivo")
+        case _:
+            print("final")
+
         
 
 classificar_valor(-5)    # Saída: Valor negativo
