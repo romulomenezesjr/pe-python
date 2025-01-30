@@ -103,23 +103,26 @@
 ## Aula 8 - Coleção de dados: Lista, Tuplas, Dicionários, Set
 
 - Coleções: Listas, Tuplas, Dicionários e Conjuntos
-  -- Definição e Características
-  -- Percorrer e Acessar: [], [-1], [::-1]
-  -- Alterar e manipular elementos (append, del, pop)
-  -- Funções: Classificação, Copiar, Juntar, Map, Max, Min, Len
+  - 📃 Definição e características (./parte2/aula8.md)
+  - 🖇 [Listas] (./parte2/aula8.md)
+  - 🏃🏼 [Percorrer e acessar] [], [-1], [::-1] (./parte2/aula8.md)
+  - ✏️ [Métodos para alterar listas (append, del, pop)] (./parte2/aula8.md)
+  - 🔧 [Funções diversas: Classificação, Copiar, Juntar, Map, Max, Min, Len](./parte2/aula8.md)
 
 ## Aula 9 - Persistencia de Dados
 
-- Arquivos: Leitura e escrita
-- Navegação e manipulação do sistema de arquivos
-- CSV, JSON e Pickle/Mashal
-- sqlite3
+- 📃 [Definição de arquivos e diretórios]
+- 💾 [Operações de leitura e escrita]
+- 📂 [Navegação e manipulação do sistema de arquivos]
+- 📝 [CSV, JSON e Pickle/Mashal]
+- 💽 [sqlite3]
 
 ## Aula 10 - Módulos
 
-- Interface Gráfica TKinter (https://docs.python.org/pt-br/3/library/tk.html)
-- Datas
-- Matemática (https://docs.python.org/pt-br/3/library/numeric.html)
+- 🔌 [Módulos Python]
+- [Interface Gráfica TKinter] (https://docs.python.org/pt-br/3/library/tk.html)
+- [Datas]
+- [Matemática] (https://docs.python.org/pt-br/3/library/numeric.html)
 
 ## Aula 11 - Criando API
 
