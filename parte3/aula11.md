@@ -197,10 +197,6 @@ deactivate
 ```
 
 
-
-
-## Utilização
-
 ## Referências
 
 - https://docs.python.org/pt-br/3.13/tutorial/modules.html
