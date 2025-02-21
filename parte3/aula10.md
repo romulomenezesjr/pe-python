@@ -197,9 +197,6 @@ deactivate
 ```
 ## Principais Módulos
 
-Aqui está uma lista de diversos módulos Python, com uma breve descrição e o link para a documentação oficial:  
-
----
 
 ### 1. **requests**  
 O `requests` é um módulo popular para fazer requisições HTTP de forma simples e intuitiva. Ele permite enviar e receber dados da web, tornando-o ideal para consumir APIs e automatizar interações com sites.  
@@ -281,9 +278,6 @@ O `pytest` é uma biblioteca para criação de testes automatizados em Python, f
 O `logging` é um módulo da biblioteca padrão do Python para geração e gerenciamento de logs. Ele é essencial para depuração e monitoramento de aplicações.  
 📌 [Documentação Oficial](https://docs.python.org/3/library/logging.html)  
 
----
-
-Se precisar de mais sugestões ou quiser um aprofundamento sobre algum desses módulos, é só me avisar! 🚀
 
 ## Referências
 
