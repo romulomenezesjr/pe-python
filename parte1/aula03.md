@@ -650,4 +650,10 @@ print("hello word","!")
 # hello word !
 ```
 
+Uma outra forma mais segura para abrir, escrever e fechar o arquivo é com o uso do operador 'with'. Veja no exemplo a seguir:
+
+```python
+with open('file.txt','w') as f:
+    print("hello word",file=f)
+```
 Exercício: Agora explore a documentação da função input().
