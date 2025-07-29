@@ -1,136 +1,45 @@
-# Parte 1 - Introdução à Linguagem Python
 
-## [Aula 1 - Conhecendo a Linguagem Python e Ambiente de Desenvolvimento](./parte1/aula1.md)
 
-- 🎉 [Primeiro Programa](./parte1/aula1.md#primeiro-programa)
-- 📓 [Vscode e Extensões](./parte1/aula1.md#vscode--extensões)
-- 💻 [Linguagens de Programação](./parte1/aula1.md#linguagens-de-programação)
-- 🐍 [Linguagem Python](./parte1/aula1.md#linguagem-python)
+## 📘 Índice de Conteúdo
 
-## [Aula 2 - Características e Versões da Linguagem](./parte1/aula2.md)
+O material está organizado da seguinte forma:
 
-- 🐍 [Características da Linguagem Python](./parte1/aula2.md#característicass-da-linguagem-python)
-  - 🔝 [Alto Nível x Baixo Nível](./parte1/aula2.md#alto-níve-x-baixo-nível)
-  - 🎭 [Interpretada](./parte1/aula2.md#interpretada)
-  - [Tipagem dinâmica](./parte1/aula2.md#tipagem-dinâmica)
-  - 💪 [Fortemente tipada](./parte1/aula2.md#fortemente-tipada)
-  - 🦆 [Duck Typing](./parte1/aula2.md#duck-typing)
-  - 🐍 [PEP20](./parte1/aula2.md#pep-20---modo-de-programar-python)
-- 🔢 [Versões da Linguagem](./parte1/aula2.md#versões-da-linguagem)
-- 🛠 [Utilização e Ferramentas](./parte1/aula2.md#utilização-e-ferramentas)
-  - 🕸 [Web](./parte1/aula2.md#web-development)
-  - 🖥 [CLI](./parte1/aula2.md#cli-development)
-  - 💻 [GUI](./parte1/aula2.md#gui-development)
-  - 🎮 [Games](./parte1/aula2.md#game-development)
-  - 🤖 [Machine Learning](./parte1/aula2.md#machine-learning)
-  - 📊 [Ciência de Dados](./parte1/aula2.md#data-analysis-and-visualization)
-  - 🕷 [Web Scraping](./parte1/aula2.md#webscrapping)
-  - 🙏 [DevOps](./parte1/aula2.md#devops)
-  - ✅ [Testes](./parte1/aula2.md#software-testing)
-  - 🎲 [Banco de Dados](./parte1/aula2.md#banco-de-dados)
-  - 🔨 [Construção e Entrega](./parte1/aula2.md#software-packaging-and-deployment)
-- [Exercício: Empresas que utilizam e vagas de emprego](https://github.com/romulomenezesjr/tsi-prog1/issues/1)
+### 📁 01 - Básico
 
-## [Aula 3 - Utilizando a Linguagem Python](./parte1/aula3.md)
+Fundamentos essenciais da linguagem Python.
 
-- [Sintaxe e estilo](./parte1/aula3.md#sintaxe-e-estilo)
-- [Variáveis, constante e escopos](./parte1/aula3.md#variáveis-constante-e-escopos)
-- [Tipos de dados (int, float, complex, boolean, string)](./parte1/aula3.md#tipos-de-dados-int-float-complex-boolean-string)
-  - [boolean](./parte1/aula3.md#booleano-bool)
-  - [int](./parte1/aula3.md#inteiro-int)
-  - [float](./parte1/aula3.md#ponto-flutuante-float)
-  - [complex](./parte1/aula3.md#complexo-complex)
-  - [string](./parte1/aula3.md#strings-str)
-- [Operadores](./parte1/aula3.md#operadores-atribuição-aritméticos-relacionais-e-lógicos)
-  - [Atribuição](./parte1/aula3.md#atribuição)
-  - [Aritméticos](./parte1/aula3.md#aritméticos)
-  - [Relacionais](./parte1/aula3.md#operadores-relacionais)
-  - [Lógicos](./parte1/aula3.md#operadores-lógicos)
-- [Funções de Input/Output](./parte1/aula3.md#funções-de-inputoutput)
-  - [Input](./parte1/aula3.md#input)
-  - [Output](./parte1/aula3.md#output)
-  - [Conhecendo mais funções](./parte1/aula3.md#conhecendo-mais-funções)
+* [01 - Introdução](01-basico/01-introducao): Primeiros passos com Python, ambiente, sintaxe e história.
+* [02 - Características da Linguagem](01-basico/02-caracteristicas): Filosofia do Python, indentação, tipagem dinâmica e legibilidade.
+* [03 - Variáveis e Tipos](01-basico/03-variaveis-tipos): Declaração de variáveis, tipos primitivos, conversão de tipos.
+* [04 - Funções e Entrada/Saída](01-basico/04-funcoes-io): Uso de `print`, `input` e definição de funções simples.
+* [05 - Manipulação de Strings](01-basico/05-strings): Indexação, fatiamento, métodos de string e formatação.
+* [06 - Estruturas Condicionais](01-basico/06-condicionais): Instruções `if`, `elif`, `else`, operadores lógicos e comparação.
+* [07 - Estruturas de Repetição](01-basico/07-repeticao): Laços `for`, `while`, controle de fluxo com `break` e `continue`.
 
-## [Aula 4 - Strings](./parte1/aula4.md)
+---
 
-- [Criação](./parte1/aula4.md#criação)
-- [Acesso à posições](./parte1/aula4.md#acesso-à-posições)
-- [Formatação](./parte1/aula4.md#formatando-strings)
-  - [Concatenação](./parte1/aula4.md#concatenar)
-  - [Caracteres de Escape](./parte1/aula4.md#caracteres-de-escape)
-  - [Raw Strings](./parte1/aula4.md#raw-strings)
-  - [f-String](./parte1/aula4.md#f-strings)
-  - [Operador de formatação](./parte1/aula4.md#operador-de-formatação)
-  - [Método str.format()](./parte1/aula4.md#método-strformat)
-  - [Métodos](./parte1/aula4.md#métodos)
+### 📁 02 - Funcionalidades
 
-## [Aula 5 - Estruturas de Seleção](./parte1/aula5.md)
+Exploração de recursos intermediários da linguagem para estruturação e modularização do código.
 
-- [Seleção simples (if)](./parte1/aula5.md#instrução-de-seleção-simples-if)
-- [Seleção dupla (if/else)](./parte1/aula5.md#instrução-de-seleção-dupla-ifelse)
-- [Seleção dupla aninhada](./parte1/aula5.md#instruções-ifelse-aninhadas)
-- [Seleção múltipla (if/else/elif)](./parte1/aula5.md#instrução-de-seleção-múltipla-ifelseelif)
-- [Operador ternário](./parte1/aula5.md#operador-ternário)
-- [Match Case](./parte1/aula5.md#match-case)
+* [01 - Funções](02-funcionalidades/01-funcoes): Parâmetros, retorno de valores, escopo e boas práticas.
+* [02 - Recursividade](02-funcionalidades/02-recursividade): Conceito e implementação de funções recursivas.
+* [03 - Coleções (listas, tuplas, dicionários)](02-funcionalidades/03-colecoes): Estruturas de dados nativas e suas operações básicas.
+* [04 - Módulos e Organização de Código](02-funcionalidades/04-modulos): Importação, reutilização e separação de responsabilidades.
+* [05 - Manipulação de Arquivos](02-funcionalidades/05-arquivos): Leitura, escrita, abertura e fechamento de arquivos.
+* [06 - Decoradores, Iteradores e Geradores](02-funcionalidades/06-decorador-iterador-gerador): Técnicas avançadas para funções e iteração eficiente.
 
-## [Aula 6 - Estruturas Repetição](./parte1/aula6.md)
-- [Estruturas de Repetição](./parte1/aula6.md#repetição)
-- [Repetição com condicional (while)](./parte1/aula6.md#while)
-- [Repetição com contador (for)](./parte1/aula6.md#for)
-- [Funções auxiliares na repetição (range, enumerate)](./parte1/aula6.md#funções-com-o-for)
-  - [Range](./parte1/aula6.md#função-range)
-  - [Enumerate](./parte1/aula6.md#função-enumerate)
-  - [Zip](./parte1/aula6.md#zip)
-  - [Reversed](./parte1/aula6.md#reversed)
-  - [Sorted](./parte1/aula6.md#sorted)
-- [For x While](./parte1/aula6.md#for-x-while)
-- Estruturas de controle na repetição (continue, break, yield)
+---
 
-# Parte 2
+### 📁 03 - Módulos
 
-## [Aula 7 - Funções](./parte2/aula7.md)
+Aplicações práticas com bibliotecas Python populares, voltadas para projetos reais.
 
-- [Definição](./parte2/aula7.md#definição)
-- [Funções embutidas](./parte2/aula7.md#funções-embutidas-em-python)
-- [Parâmetros, parâmetros nomeados, retornos](./parte2/aula7.md#parâmetros-parâmetros-nomeados-retornos)
-- [Tipagem opcional](./parte2/aula7.md#tipagem-opcional)
-- [Escopo local e global](./parte2/aula7.md#escopo-local-e-escopo-global-em-python)
-- [Argumentos \*args e \*\*kwargs](./parte2/aula7.md#argumentos-args-e-kwargs)
-- [Documentação](./parte2/aula7.md#documentação-de-código-e-documentação-de-funções-em-python)
-- [HOF e First class functions](./parte2/aula7.md#high-order-functions-hof)
-- [lambdas](./parte2/aula7.md#funções-lambda-em-python)
+* [01 - Aplicações Web (Flask, etc.)](03-módulos/01-web): Desenvolvimento de aplicações web simples usando frameworks.
+* [02 - Análise de Dados](03-módulos/02-data-analyses): Leitura de dados, análise e visualização com bibliotecas como Pandas e Matplotlib.
+* [03 - Introdução ao Machine Learning](03-módulos/03-ml): Conceitos básicos e uso de bibliotecas como scikit-learn.
+* [04 - Interfaces Gráficas e Linha de Comando](03-módulos/04-gui-cli): Construção de GUIs com Tkinter e ferramentas de CLI com argparse ou Click.
 
-## Aula 8 - Coleção de dados: Lista, Tuplas, Dicionários, Set
+---
 
-- Coleções: Listas, Tuplas, Dicionários e Conjuntos
-  - 📃 Definição e características (./parte2/aula8.md)
-  - 🖇 [Listas] (./parte2/aula8.md)
-  - 🏃🏼 [Percorrer e acessar] [], [-1], [::-1] (./parte2/aula8.md)
-  - ✏️ [Métodos para alterar listas (append, del, pop)] (./parte2/aula8.md)
-  - 🔧 [Funções diversas: Classificação, Copiar, Juntar, Map, Max, Min, Len](./parte2/aula8.md)
-
-## Aula 9 - Persistencia de Dados
-
-- 📃 [Definição de arquivos e diretórios]
-- 💾 [Operações de leitura e escrita]
-- 📂 [Navegação e manipulação do sistema de arquivos]
-- 📝 [CSV, JSON e Pickle/Mashal]
-- 💽 [sqlite3]
-
-## Aula 10 - Módulos
-
-- 🔌 [Módulos Python]
-- [Interface Gráfica TKinter] (https://docs.python.org/pt-br/3/library/tk.html)
-- [Datas]
-- [Matemática] (https://docs.python.org/pt-br/3/library/numeric.html)
-
-## Aula 11 - Criando API
-
-- Ambientes Virtuais
-- API: fastapi
-
-# Aula 12 - Recursos da linguagem
-
-- Decorators
-- Generators
-- Comprehension
+Se quiser, posso converter esse sumário em HTML ou PDF também. Deseja isso?
