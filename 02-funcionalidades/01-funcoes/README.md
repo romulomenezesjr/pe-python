@@ -627,25 +627,4 @@ As funções lambda são úteis para tarefas simples e pontuais, mas têm alguma
 
 Devido a essas limitações, as funções lambda são mais indicadas para situações em que uma função pequena e rápida é necessária, como uma função de transformação para uma função HOF.
 
-## Decorator
 
-A utilização de HOF e closures são muito comuns em bibliotecas e frameworks para a execução de funções anteriormente à uma função definida pelo programador. Este comportamento é feito a partir de um símbolo de @ chamado de decorator.
-
-O decorator é uma função que recebe outra função como argumento e retorna uma nova função, normalmente modificando ou estendendo a função inicial. Eles são usados para adicionar funcionalidades, adicionar logs, fazer controle de acesso ou medição de desempenho.
-
-São muito utilizadas por módulos como fastapi, flask, celery, click, sqlalchemy, entre outros.
-
-```py
-def registrar(func):
-    def _(*args, **kwargs):
-        print(args)
-        result = func(*args, **kwargs)
-        return result
-    return _
-
-@registrar
-def dobrar(x):
-    return x*2
-
-dobrar(2)
-```
