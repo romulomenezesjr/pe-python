@@ -112,9 +112,176 @@ Em definição matemática a sequência é definida recursivamente pela fórmula
 
 ## Funções Computacionais
 
-A utilização de funções recursivas na computação é muito comum para problemas que lidam com dados de mesma natureza. 
-– Estruturas de dados (árvores, grafos)
-– Algoritmos de busca e ordenação
+### Utilização em Funções de Estruturas de Dados
+
+
+A utilização de funções recursivas na computação é muito comum para problemas que lidam com dados de mesma natureza. Em diversos algoritmos usados em estruturas de dados existe o uso de funções recursivas. Para estruturas de dados como as árvores temos diferentes algoritmos para percurso que usam recursividade. Também em listas encadeadas podemos usar funções recursivas para percorrer linearmente os nós.
+
+
+
+#### Listas
+
+Em estruturas de dados uma lista pode ser criada a partir de um conjunto de nós ligados entre si, como se fossem os vagões de um trem.
+
+![Lista Encadeada](./imgs/linked-list-train.png)
+
+Este conceito para organizar dados pode ser implementado com o código a seguir:
+
+```py
+class Node:
+    def __init__(self, data):
+        self.data = data
+        self.next = None
+
+class LinkedList:
+    def __init__(self):
+        self.head = None
+
+    def append(self, data):
+        new_node = Node(data)
+        if not self.head:
+            self.head = new_node
+            return
+        last = self.head
+        while last.next:
+            last = last.next
+        last.next = new_node
+
+    def display(self, start):
+        if start:
+            print(start.data, end=" ")
+            self.display(start.next)
+        else:
+            print()
+       
+if __name__ == "__main__":
+    ll = LinkedList()
+    ll.append(1)
+    ll.append(2)
+    ll.append(3)
+    ll.display(ll.head)  # Output: 1 2 3
+   
+
+```
+
+Observe a implementação do método **display**. Nele temos a verificação para testar a condição de parada (else) e a chamada recursiva de **display**.
+
+
+
+#### Árvores
+
+Na computação é muito comum o uso de uma estrutura de dados chamada árvore, em particular as árvores binárias. Seguindo o mesmo conceito de nós ligados das listas a árvore binária permite que cada nó tenha até dois filhos, por isso o nome de binária. Este fato gera a característica de ser uma estrutura não linear.
+
+
+![Árvore binária](./imgs/binary-tree-to-DLL.png)
+
+A implementação é similar a das listas, onde temos os Nós e a Árvore sendo construída a parir do nó **raiz**.
+
+```py
+
+class Node:
+    def __init__(self, data):
+        self.data = data
+        self.left = None
+        self.right = None
+
+class BinaryTree:
+    def __init__(self):
+        self.root = None
+
+    def preorder_traversal(self, node):
+        if node:
+            print(node.data, end=" ")
+            self.preorder_traversal(node.left)
+            self.preorder_traversal(node.right)
+
+
+if __name__ == "__main__":
+    bt = BinaryTree()
+    bt.root = Node(4)
+    bt.root.left = Node(3)
+    bt.root.right = Node(8)
+    
+    bt.root.left.left = Node(2)
+    bt.root.left.right = None
+    bt.root.right.left = Node(7)
+    bt.root.right.right = Node(9)
+
+
+    bt.preorder_traversal(bt.root) 
+
+```
+
+Execute observe a saída do algoritmos recursivo **pre_order**. Veja que ele percorreu indo para o nó mais a esquerda, após isso o nó acima deste e indo para o nó mais a direita. Altere o código criando o método **in_order** e fazendo a chamada dele no main. Observe que para a organização da árvore atual, com cada nó possuindo dois nós filhos com valores menores que o dela temos a impressão em ordem crescente. 
+
+
+```py
+    def inorder_traversal(self, node):
+        if node:
+            self.inorder_traversal(node.left)
+            print(node.data, end=" ")
+            self.inorder_traversal(node.right)
+
+```
+
+
+### Utilização em Algoritmos de busca e ordenação
+
+Não existe apenas uma maneira para order dados em um vetor. Existem diversos algoritmos que são chamados de algoritmos de ordenação. Alguns são implementados utilizando instruções imperativas (for/if) enquanto outros são implementados de maneira recursiva.
+
+Observe a seguir o merge sort como exemplo de algoritmo de ordenação recursivo. Faça também uma pesquisa para reconhecer a existencia de outros algoritmos.
+
+#### Ordenação por merge
+
+Se baseia no princípio da divisão e conquista. Ou seja, divide o problema em subproblemas e os resolve de forma independente até unir as resoluções (merge). 
+
+O algoritmo consiste no processo de dividir e conquistar:
+
+- Dividir a lista não ordenada em listas com a metade dos elementos, consecutivamente, até haver listas com apenas um elemento (caso base)
+
+- Repetidamente intercalar (merge) as listas menores ordenadas e combinar em listas novas e ordenadas. 
+
+
+![Merge Sort](./imgs/merge_sort.png)
+
+
+O algoritmo do merge_sort faz exatamente os dois processos. Inicialmente divide o array recursivamente nas chamadas de **merge_sort** e após dividir até o tamanho mínimo do array realiza a união (**merge**).
+
+```py
+def merge_sort(arr):
+    if len(arr) <= 1:
+        return arr
+
+    mid = len(arr) // 2
+    left_half = merge_sort(arr[:mid])
+    right_half = merge_sort(arr[mid:])
+
+    return merge(left_half, right_half)
+
+def merge(left, right):
+    sorted_array = []
+    left_index, right_index = 0, 0
+
+    while left_index < len(left) and right_index < len(right):
+        if left[left_index] < right[right_index]:
+            sorted_array.append(left[left_index])
+            left_index += 1
+        else:
+            sorted_array.append(right[right_index])
+            right_index += 1
+
+    sorted_array.extend(left[left_index:])
+    sorted_array.extend(right[right_index:])
+
+    return sorted_array
+
+if __name__ == "__main__":
+    sample_array = [38, 27, 43, 3, 9, 82, 10]
+    sorted_array = merge_sort(sample_array)
+    print("Sorted array:", sorted_array)  # Output: Sorted array: [3, 9, 10, 27, 38, 43, 82]
+```
+
+![Merge](./imgs/merge.png)
 
 ### Custo de funções recursivas
 
@@ -122,11 +289,14 @@ Quando uma função chama a si mesma, novos parâmetros e variáveis locais são
 
 Uma chamada recursiva não faz uma nova cópia da função; apenas os argumentos são novos.  Quando cada função recursiva retorna, as variáveis locais e os parâmetros são removidos da pilha e a execução recomeça do ponto da chamada à função dentro da função.
 
+## Exercícios
 
+1. Criar função recursiva para inverter uma string
 
+2. Criar função recursiva para somar elementos de um array
 
+3. Crie uma função recursiva para obter a multiplicação a partir de operações de soma
 
+4. Crie uma função recursiva para obter a exponenciação a partir de operações de multiplicação
 
-
-
-
+5. Crie um programa utilizando uma função para calcular a quantidade nascimentos de coelhos, de acordo com a sequência de  fibonacci, após 12 meses. 
