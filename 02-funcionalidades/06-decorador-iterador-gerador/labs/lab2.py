@@ -1,24 +1,24 @@
 import time
 import numpy as np
 
+def time_decorator(fn):
+    def fn_melhorada(*args,**kwargs):
+        import time
+        start = time.time()
+        result = fn(*args, **kwargs)
+        end = time.time()
+        print(f"função '{fn.__name__}' demorou {(end-start):0.5f}")
+        return result
+    
+    return fn_melhorada
 
-def tempo(function):
-    def wrapper(*args):
-        t1 = time.time()
-        func = function(*args)
-        t2 = time.time()
-        print("Tempo: " + str(t2 - t1))
-        return func
-
-    return wrapper
-
-@tempo
+@time_decorator
 def multiplicar_constante(c):
     lista = list(range(1_000_000))
     resultado = [x * c for x in lista]
     return resultado
 
-@tempo
+@time_decorator
 def multiplicar_constante_np(c):
     lista = np.array(list(range(1_000_000)))
     resultado = lista * c
