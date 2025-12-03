@@ -7,7 +7,7 @@ Um módulo é um arquivo que contém definições e instruções de Python. Um m
 
 Os módulos podem ser criados por você ou podem ser módulos internos da biblioteca padrão de Python, ou até mesmo pacotes de terceiros que você instala.
 
-## Exemplos
+## Utilizando Módulos da Biblioteca Padrão do Python
 
 Para usar as funcionalidades de um módulo, você precisa importá-lo no seu código. A forma básica de fazer isso é usando a palavra-chave import.
 
@@ -36,11 +36,35 @@ print(resultado)  # Saída: 5.0
 
 ```
 
-## Criando o seu próprio módulo
+### Biblioteca Padrão
+
+Python vem com uma série de módulos que você pode usar sem precisar instalar nada adicionalmente. Alguns exemplos de módulos úteis da biblioteca padrão:
+
+- os: para interagir com o sistema operacional (ex: manipulação de arquivos e diretórios)
+- datetime: para trabalhar com datas e horas
+- random: para gerar números aleatórios
+- sys: para manipulação de parâmetros de execução do script
+- json: para trabalhar com dados no formato JSON
+- pickle:
+- marshal:
+- turtle:
+- tkinter: A biblioteca padrão do Python para criação de interfaces gráficas (GUI)
+- sqlite3: Permite interagir com bancos de dados SQLite. Ele é útil para armazenar e manipular dados estruturados sem necessidade de um servidor de banco de dados.  
+
+
+
+Para a lista completa acesse aqui: [lista](https://docs.python.org/3/py-modindex.html)
+
+
+## Criando Módulo Próprio
+
 Você pode criar seus próprios módulos escrevendo funções ou classes em um arquivo Python (.py). Depois, pode importar esse módulo em outros arquivos Python.
 
 Exemplo 1: Criando um módulo
-Crie um arquivo chamado meu_modulo.py com o seguinte conteúdo
+
+Crie um arquivo chamado meu_modulo.py com o seguinte conteúdo e crie um arquivo \__init__.py em branco na pasta do seu módulo.
+
+
 ```py
 # meu_modulo.py
 
@@ -53,7 +77,7 @@ def soma(a, b):
 ```
 
 
-Agora, em outro arquivo Python, você pode importar e usar as funções do seu módulo:
+Em outro arquivo Python você pode importar e usar as funções do seu módulo:
 ```py
 # outro_arquivo.py
 
@@ -63,21 +87,12 @@ print(meu_modulo.saudacao("Maria"))
 print(meu_modulo.soma(5, 3))
 ```
 
-## Módulos da Biblioteca Padrão
-
-Python vem com uma série de módulos que você pode usar sem precisar instalar nada adicionalmente. Alguns exemplos de módulos úteis da biblioteca padrão:
-
-- os: para interagir com o sistema operacional (ex: manipulação de arquivos e diretórios)
-- datetime: para trabalhar com datas e horas
-- random: para gerar números aleatórios
-- sys: para manipulação de parâmetros de execução do script
-- json: para trabalhar com dados no formato JSON
 
 
 
 ## PIP
 
-A instalação de módulos externos aos da biblioteca padrão do python é feita utilizando a ferramenta pip  (Python Package Installer). Ele é o gerenciador de pacotes do Python e permite instalar, atualizar e remover bibliotecas e dependências de projetos Python diretamente do PyPI (Python Package Index).
+Para utilizar módulos criados por outras pessoas e que não estão por padrão na biblioteca padrão do python devemos utilizar uma ferramenta chamada pip  (Python Package Installer). Ele é o gerenciador padrão de pacotes do Python e permite instalar, atualizar e remover bibliotecas e dependências de projetos Python diretamente do PyPI (Python Package Index).
 
 ### Verificar se o pip está instalado
 ```sh
@@ -195,7 +210,11 @@ Quando terminar de trabalhar no projeto, você pode desativar o ambiente virtual
 ```sh
 deactivate
 ```
+
+
 ## Principais Módulos
+
+O ambiente de módulos presentes na linguagem python é muito rico. Abaixo está uma lista de diversos módulos úteis e que podem ser explorados para criação de seus projetos de conclusão da disciplina.
 
 
 ### 1. **requests**  
@@ -226,10 +245,6 @@ O `flask` é um microframework para desenvolvimento de aplicações web em Pytho
 O `django` é um framework robusto para desenvolvimento web, seguindo o padrão MVC. Ele inclui recursos como autenticação, ORM e administração integrada, facilitando o desenvolvimento de aplicações escaláveis.  
 📌 [Documentação Oficial](https://docs.djangoproject.com/en/stable/)  
 
-### 8. **tkinter**  
-O `tkinter` é a biblioteca padrão do Python para criação de interfaces gráficas (GUI). Ele permite desenvolver aplicativos de desktop com botões, caixas de entrada, menus e muito mais.  
-📌 [Documentação Oficial](https://docs.python.org/3/library/tkinter.html)  
-
 ### 9. **scikit-learn**  
 O `scikit-learn` é uma biblioteca poderosa para aprendizado de máquina. Ele oferece algoritmos de classificação, regressão, agrupamento e outras técnicas de inteligência artificial.  
 📌 [Documentação Oficial](https://scikit-learn.org/stable/documentation.html)  
@@ -246,10 +261,19 @@ O `pillow` é uma biblioteca para manipulação de imagens em Python. Ele permit
 O `beautifulsoup4` é uma biblioteca para web scraping, permitindo extrair e manipular dados de páginas HTML e XML de forma simples.  
 📌 [Documentação Oficial](https://www.crummy.com/software/BeautifulSoup/bs4/doc/)  
 
-### 13. **sqlite3**  
-O `sqlite3` é um módulo embutido no Python que permite interagir com bancos de dados SQLite. Ele é útil para armazenar e manipular dados estruturados sem necessidade de um servidor de banco de dados.  
-📌 [Documentação Oficial](https://docs.python.org/3/library/sqlite3.html)  
+13. **dataclasse**
 
+14. **pydantic**
+
+15. **pathlib**
+
+16. **functools**
+
+17. **tomllib**
+
+18. **graphlib**
+
+19. **heapq**
 ### 14. **pyttsx3**  
 O `pyttsx3` é uma biblioteca de conversão de texto para fala (TTS), permitindo que programas Python gerem áudio falado a partir de strings de texto.  
 📌 [Documentação Oficial](https://pyttsx3.readthedocs.io/en/latest/)  

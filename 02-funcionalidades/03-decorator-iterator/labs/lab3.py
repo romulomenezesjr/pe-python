@@ -13,5 +13,10 @@ class Contador:
         self.atual += 1
         return valor
 
-for numero in Contador(5):
-    print(numero)
+# for numero in Contador(5):
+#     print(numero)
+
+c = Contador(5)
+print(next(c))
+print(next(c))
+print(next(c))
