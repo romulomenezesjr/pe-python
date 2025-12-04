@@ -6,7 +6,7 @@ Em Python, as coleções de dados são estruturas fundamentais que permitem arma
 
 As listas são coleções ordenadas e mutáveis de elementos, permitindo armazenar diferentes tipos de dados em uma única estrutura. Os elementos em uma lista são indexados numericamente, começando do índice 0 para o primeiro elemento. A mutabilidade das listas significa que é possível adicionar, remover e alterar elementos após a criação da lista. Elas podem aumentar ou diminuir de tamanho conforme você adiciona ou remove elementos.
 
-### Exemplo:
+### Exemplos:
 
 ```python
 # Criando uma lista de números inteiros
@@ -18,10 +18,10 @@ ultimo_elemento = lista_numeros[-1]   # Resultado: 50
 
 # Modificando elementos
 lista_numeros[2] = 35
-
+lista_numeros[3] = 35
 # Adicionando elementos
 lista_numeros.append(60)
-
+lista_numeros.append(70)
 # Removendo elementos
 elemento_removido = lista_numeros.pop(1)  # Remove o elemento no índice 1 (20)
 
