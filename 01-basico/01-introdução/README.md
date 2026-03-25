@@ -63,9 +63,9 @@ Link do Marketplace do VS: https://marketplace.visualstudio.com/items?itemName=m
 
 ## Instalação do Interpretador Python
 
-![MS Store Python](../img/msstore-python.png)
+![MS Store Python](../../img/msstore-python.png)
 
-![Site Pythoon](../img/sitepython.png)
+![Site Pythoon](../../img/sitepython.png)
 
 Para testar se a instalação ocorreu corretamente:
 

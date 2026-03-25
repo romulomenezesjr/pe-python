@@ -73,19 +73,19 @@ python3 arquivo.py
 ```
 
 <p align="center">
-  <img src="../img/interpretada.png" />
+  <img src="../../img/interpretada.png" />
 </p>
 
 Outra forma de gerar programas é a partir de linguagens compiladas. Um programa chamado compilador lê o código e o traduz completamente antes da execução. Após a etapa de compilação você pode executar repetidamente o programa sem que precise de nova tradução/interpretação.
 
 <p align="center">
-  <img src="../img/compile.png" />
+  <img src="../../img/compile.png" />
 </p>
 
 A linguagem Python internamente utiliza os processos, mas devido a forma com que você interage com essa linguagem, ela é em geral considerada uma linguagem interpretada. O código fonte é primeiramente compilado para uma linguagem de baixo nível, chamado de código em bytes ("byte code"), e então são interpretados por um programa chamado de máquina virtual.
 
 <p align="center">
-  <img src="../img/python-compile-interpreted.png" />
+  <img src="../../img/python-compile-interpreted.png" />
 </p>
 
 ### Tipagem dinâmica
@@ -151,7 +151,7 @@ def soma(a:int, b:int)-> int:
 
 Adicinar anotações de tipo não é uma obrigação na linguagem Python, mas pode documentar e ajudar quando trabalhamos com código longo, evitando erros e mantendo os tipos sem variações.
 
-![Plano Carteziano.](../img/tipagem.jpg)
+![Plano Carteziano.](../../img/tipagem.jpg)
 
 ### Duck Typing
 
@@ -207,11 +207,11 @@ Com a evolução da linguagem são adicionadas novas funcionalidades, melhorias 
 Cada versão possui um ciclo de atualizações que é mantida por um período de tempo.
 Essas atualizações podem ser para resolver bugs ou problemas de segurança. Atualizações menores, como da versão 3.11.1 para a 3.11.2 resolvem pequenos problemas. Novas funcionalidades são inseridas em versões maiores, como por exemplo: A mudança da versão 3.10 para 3.11 ocorre adição de funcionalidades propostas e aprovadas em PEP's.
 
-![Versões Python](../img/python-versions.png)
+![Versões Python](../../img/python-versions.png)
 
 Quando temos diferentes projetos que usam a linguagem Python é comum criarmos ambientes virtuais para a execução separada, assim as bibliotecas e versões de outros projetos não entram em conflito.
 
-![Ambientes Virtuais Python](../img/venv.png)
+![Ambientes Virtuais Python](../../img/venv.png)
 
 Para a versão 3.6+ estes ambientes virutais são criados com o comando.
 

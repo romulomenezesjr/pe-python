@@ -80,7 +80,7 @@ Podemos conhecer o funcionamento de funções a partir da documentação. Desta 
 
 Também podemos visualizar isto pelos recursos da IDE/Editor de código colocando o cursos do mouse em cima do texto da função ou pela função help() do Python. Veja o exemplo:
 
-![VS Code](../img/print-help.png)
+![VS Code](../../img/print-help.png)
 
 ```python
 help(print)
