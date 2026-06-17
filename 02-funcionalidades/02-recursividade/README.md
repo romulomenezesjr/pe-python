@@ -12,7 +12,8 @@ A sequencia de fibonacci descrita no vídeo anterior é um exemplo de função r
 
 ![Tornado](https://kucdinteractive.com/croy/golden-ratio-site/assets/images/nature-img-1.jpg)
 
-![Aloevera](http://ucanr.edu/blogs/UCMasterGardenersofSanMateoSanFranciscoC/blogfiles/102486.png)
+![Aloevera](https://luispellegrini.com.br/wp-content/uploads/2017/03/the-golden-ratio.jpg)
+
 
 
 Na computação o conceito de recursividade é amplamente utilizado, mas difere da recursividade típica por apresentar uma condição que provoca o fim do ciclo recursivo. 
